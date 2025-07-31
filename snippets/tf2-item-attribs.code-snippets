@@ -1,0 +1,4167 @@
+{
+	"(-) Attribute: damage penalty (1)": {
+		"prefix": "damage penalty",
+		"body": "\"damage penalty\"",
+		"description": "(percentage) %s1% damage penalty"
+	},
+	"(+) Attribute: damage bonus (2)": {
+		"prefix": "damage bonus",
+		"body": "\"damage bonus\"",
+		"description": "(percentage) +%s1% damage bonus"
+	},
+	"(-) Attribute: clip size penalty (3)": {
+		"prefix": "clip size penalty",
+		"body": "\"clip size penalty\"",
+		"description": "(percentage) %s1% clip size"
+	},
+	"(+) Attribute: clip size bonus (4)": {
+		"prefix": "clip size bonus",
+		"body": "\"clip size bonus\"",
+		"description": "(percentage) +%s1% clip size"
+	},
+	"(-) Attribute: fire rate penalty (5)": {
+		"prefix": "fire rate penalty",
+		"body": "\"fire rate penalty\"",
+		"description": "(inverted_percentage) %s1% slower firing speed"
+	},
+	"(+) Attribute: fire rate bonus (6)": {
+		"prefix": "fire rate bonus",
+		"body": "\"fire rate bonus\"",
+		"description": "(inverted_percentage) +%s1% faster firing speed"
+	},
+	"(-) Attribute: heal rate penalty (7)": {
+		"prefix": "heal rate penalty",
+		"body": "\"heal rate penalty\"",
+		"description": "(percentage) %s1% heal rate"
+	},
+	"(+) Attribute: heal rate bonus (8)": {
+		"prefix": "heal rate bonus",
+		"body": "\"heal rate bonus\"",
+		"description": "(percentage) +%s1% heal rate"
+	},
+	"(-) Attribute: ubercharge rate penalty (9)": {
+		"prefix": "ubercharge rate penalty",
+		"body": "\"ubercharge rate penalty\"",
+		"description": "(percentage) %s1% ÜberCharge rate"
+	},
+	"(+) Attribute: ubercharge rate bonus (10)": {
+		"prefix": "ubercharge rate bonus",
+		"body": "\"ubercharge rate bonus\"",
+		"description": "(percentage) +%s1% ÜberCharge rate"
+	},
+	"(+) Attribute: overheal bonus (11)": {
+		"prefix": "overheal bonus",
+		"body": "\"overheal bonus\"",
+		"description": "(percentage) +%s1% max overheal"
+	},
+	"(-) Attribute: overheal decay penalty (12)": {
+		"prefix": "overheal decay penalty",
+		"body": "\"overheal decay penalty\"",
+		"description": "(inverted_percentage) %s1% shorter overheal time"
+	},
+	"(+) Attribute: overheal decay bonus (13)": {
+		"prefix": "overheal decay bonus",
+		"body": "\"overheal decay bonus\"",
+		"description": "(inverted_percentage) +%s1% longer overheal time"
+	},
+	"(+) Attribute: overheal decay disabled (14)": {
+		"prefix": "overheal decay disabled",
+		"body": "\"overheal decay disabled\"",
+		"description": "(percentage) Overheal bonus doesn't decay"
+	},
+	"(-) Attribute: crit mod disabled (15)": {
+		"prefix": "crit mod disabled",
+		"body": "\"crit mod disabled\"",
+		"description": "(percentage) No random critical hits"
+	},
+	"(+) Attribute: heal on hit for rapidfire (16)": {
+		"prefix": "heal on hit for rapidfire",
+		"body": "\"heal on hit for rapidfire\"",
+		"description": "(additive) On Hit: Gain up to +%s1 health"
+	},
+	"(+) Attribute: add uber charge on hit (17)": {
+		"prefix": "add uber charge on hit",
+		"body": "\"add uber charge on hit\"",
+		"description": "(additive_percentage) On Hit: %s1% ÜberCharge added"
+	},
+	"(=) Attribute: medigun charge is crit boost (18)": {
+		"prefix": "medigun charge is crit boost",
+		"body": "\"medigun charge is crit boost\"",
+		"description": "(additive) ÜberCharge grants 100% critical chance"
+	},
+	"(+) Attribute: tmp dmgbuff on hit (19)": {
+		"prefix": "tmp dmgbuff on hit",
+		"body": "\"tmp dmgbuff on hit\"",
+		"description": "(additive_percentage) On Hit: +%s1% damage bonus"
+	},
+	"(+) Attribute: crit vs burning players (20)": {
+		"prefix": "crit vs burning players",
+		"body": "\"crit vs burning players\"",
+		"description": "(or) 100% critical hit vs burning players"
+	},
+	"(-) Attribute: dmg penalty vs nonburning (21)": {
+		"prefix": "dmg penalty vs nonburning",
+		"body": "\"dmg penalty vs nonburning\"",
+		"description": "(percentage) %s1% damage vs non-burning players"
+	},
+	"(-) Attribute: no crit vs nonburning (22)": {
+		"prefix": "no crit vs nonburning",
+		"body": "\"no crit vs nonburning\"",
+		"description": "(additive) No critical hits vs non-burning players"
+	},
+	"(-) Attribute: mod flamethrower push (23)": {
+		"prefix": "mod flamethrower push",
+		"body": "\"mod flamethrower push\"",
+		"description": "(additive) No compression blast"
+	},
+	"(+) Attribute: mod flamethrower back crit (24)": {
+		"prefix": "mod flamethrower back crit",
+		"body": "\"mod flamethrower back crit\"",
+		"description": "(additive) 100% critical hits from behind"
+	},
+	"(=) Attribute: hidden secondary max ammo penalty (25)": {
+		"prefix": "hidden secondary max ammo penalty",
+		"body": "\"hidden secondary max ammo penalty\"",
+		"description": "(percentage)"
+	},
+	"(+) Attribute: max health additive bonus (26)": {
+		"prefix": "max health additive bonus",
+		"body": "\"max health additive bonus\"",
+		"description": "(additive) +%s1 max health on wearer"
+	},
+	"(=) Attribute: alt-fire disabled (27)": {
+		"prefix": "alt-fire disabled",
+		"body": "\"alt-fire disabled\"",
+		"description": "(additive) Attrib_AltFire_Disabled"
+	},
+	"(-) Attribute: crit mod disabled hidden (28)": {
+		"prefix": "crit mod disabled hidden",
+		"body": "\"crit mod disabled hidden\"",
+		"description": "(percentage) No random critical hits"
+	},
+	"(=) Attribute: fists have radial buff (30)": {
+		"prefix": "fists have radial buff",
+		"body": "\"fists have radial buff\"",
+		"description": "(additive) On Kill: +50 health on nearby teammates\n On Kill: +10% Crit Chance on nearby teammates"
+	},
+	"(+) Attribute: critboost on kill (31)": {
+		"prefix": "critboost on kill",
+		"body": "\"critboost on kill\"",
+		"description": "(additive) On Kill: %s1 seconds of 100% critical chance"
+	},
+	"(+) Attribute: slow enemy on hit (32)": {
+		"prefix": "slow enemy on hit",
+		"body": "\"slow enemy on hit\"",
+		"description": "(additive_percentage) On Hit: %s1% chance to slow target"
+	},
+	"(=) Attribute: set cloak is feign death (33)": {
+		"prefix": "set cloak is feign death",
+		"body": "\"set cloak is feign death\"",
+		"description": "(additive) Cloak Type: Feign Death. Leave a fake corpse on taking damage and temporarily gain invisibility, speed, and damage resistance."
+	},
+	"(-) Attribute: mult cloak meter consume rate (34)": {
+		"prefix": "mult cloak meter consume rate",
+		"body": "\"mult cloak meter consume rate\"",
+		"description": "(percentage) +%s1% cloak drain rate"
+	},
+	"(+) Attribute: mult cloak meter regen rate (35)": {
+		"prefix": "mult cloak meter regen rate",
+		"body": "\"mult cloak meter regen rate\"",
+		"description": "(percentage) +%s1% cloak regen rate"
+	},
+	"(-) Attribute: spread penalty (36)": {
+		"prefix": "spread penalty",
+		"body": "\"spread penalty\"",
+		"description": "(percentage) %s1% less accurate"
+	},
+	"(+) Attribute: hidden primary max ammo bonus (37)": {
+		"prefix": "hidden primary max ammo bonus",
+		"body": "\"hidden primary max ammo bonus\"",
+		"description": "(percentage) "
+	},
+	"(+) Attribute: mod bat launches balls (38)": {
+		"prefix": "mod bat launches balls",
+		"body": "\"mod bat launches balls\"",
+		"description": "(additive) Alt-Fire: Launches a ball that slows opponents"
+	},
+	"(-) Attribute: dmg penalty vs nonstunned (39)": {
+		"prefix": "dmg penalty vs nonstunned",
+		"body": "\"dmg penalty vs nonstunned\"",
+		"description": "(percentage) %s1% damage vs non-stunned players"
+	},
+	"(+) Attribute: zoom speed mod disabled (40)": {
+		"prefix": "zoom speed mod disabled",
+		"body": "\"zoom speed mod disabled\"",
+		"description": "(additive) No move speed penalty from zoom"
+	},
+	"(+) Attribute: sniper charge per sec (41)": {
+		"prefix": "sniper charge per sec",
+		"body": "\"sniper charge per sec\"",
+		"description": "(percentage) +%s1% charge rate"
+	},
+	"(-) Attribute: sniper no headshots (42)": {
+		"prefix": "sniper no headshots",
+		"body": "\"sniper no headshots\"",
+		"description": "(additive) No headshots"
+	},
+	"(=) Attribute: scattergun no reload single (43)": {
+		"prefix": "scattergun no reload single",
+		"body": "\"scattergun no reload single\"",
+		"description": "(additive) Attrib_Scattergun_NoReloadSingle"
+	},
+	"(+) Attribute: scattergun has knockback (44)": {
+		"prefix": "scattergun has knockback",
+		"body": "\"scattergun has knockback\"",
+		"description": "(additive) Knockback on the target and shooter"
+	},
+	"(+) Attribute: bullets per shot bonus (45)": {
+		"prefix": "bullets per shot bonus",
+		"body": "\"bullets per shot bonus\"",
+		"description": "(percentage) +%s1% bullets per shot"
+	},
+	"(-) Attribute: sniper zoom penalty (46)": {
+		"prefix": "sniper zoom penalty",
+		"body": "\"sniper zoom penalty\"",
+		"description": "(percentage) %s1% zoom reduction"
+	},
+	"(-) Attribute: sniper no charge (47)": {
+		"prefix": "sniper no charge",
+		"body": "\"sniper no charge\"",
+		"description": "(additive) No zoom or damage charge"
+	},
+	"(=) Attribute: set cloak is movement based (48)": {
+		"prefix": "set cloak is movement based",
+		"body": "\"set cloak is movement based\"",
+		"description": "(additive) Cloak Type: Motion Sensitive. Alt-fire: Turn invisible. Cannot attack while invisible. Bumping in to enemies will make you slightly visible to enemies. Cloak drain rate based on movement speed."
+	},
+	"(-) Attribute: no double jump (49)": {
+		"prefix": "no double jump",
+		"body": "\"no double jump\"",
+		"description": "(additive) Disables double jump"
+	},
+	"(+) Attribute: absorb damage while cloaked (50)": {
+		"prefix": "absorb damage while cloaked",
+		"body": "\"absorb damage while cloaked\"",
+		"description": "(percentage) Absorbs %s1% damage while cloaked"
+	},
+	"(+) Attribute: revolver use hit locations (51)": {
+		"prefix": "revolver use hit locations",
+		"body": "\"revolver use hit locations\"",
+		"description": "(additive) Crits on headshot"
+	},
+	"(+) Attribute: backstab shield (52)": {
+		"prefix": "backstab shield",
+		"body": "\"backstab shield\"",
+		"description": "(additive) Blocks a single backstab attempt"
+	},
+	"(+) Attribute: fire retardant (53)": {
+		"prefix": "fire retardant",
+		"body": "\"fire retardant\"",
+		"description": "(additive) Wearer cannot ignite"
+	},
+	"(-) Attribute: move speed penalty (54)": {
+		"prefix": "move speed penalty",
+		"body": "\"move speed penalty\"",
+		"description": "(inverted_percentage) %s1% slower move speed on wearer"
+	},
+	"(=) Attribute: obsolete ammo penalty (55)": {
+		"prefix": "obsolete ammo penalty",
+		"body": "\"obsolete ammo penalty\"",
+		"description": "(percentage)"
+	},
+	"(=) Attribute: jarate description (56)": {
+		"prefix": "jarate description",
+		"body": "\"jarate description\"",
+		"description": "(percentage) Coated enemies take mini-crits\n Can be used to extinguish fire"
+	},
+	"(+) Attribute: health regen (57)": {
+		"prefix": "health regen",
+		"body": "\"health regen\"",
+		"description": "(additive) +%s1 health regenerated per second on wearer"
+	},
+	"(+) Attribute: self dmg push force increased (58)": {
+		"prefix": "self dmg push force increased",
+		"body": "\"self dmg push force increased\"",
+		"description": "(percentage) +%s1% self damage force"
+	},
+	"(-) Attribute: self dmg push force decreased (59)": {
+		"prefix": "self dmg push force decreased",
+		"body": "\"self dmg push force decreased\"",
+		"description": "(percentage) %s1% self damage force"
+	},
+	"(+) Attribute: dmg taken from fire reduced (60)": {
+		"prefix": "dmg taken from fire reduced",
+		"body": "\"dmg taken from fire reduced\"",
+		"description": "(inverted_percentage) +%s1% fire damage resistance on wearer"
+	},
+	"(-) Attribute: dmg taken from fire increased (61)": {
+		"prefix": "dmg taken from fire increased",
+		"body": "\"dmg taken from fire increased\"",
+		"description": "(percentage) %s1% fire damage vulnerability on wearer"
+	},
+	"(+) Attribute: dmg taken from crit reduced (62)": {
+		"prefix": "dmg taken from crit reduced",
+		"body": "\"dmg taken from crit reduced\"",
+		"description": "(inverted_percentage) +%s1% critical hit damage resistance on wearer"
+	},
+	"(-) Attribute: dmg taken from crit increased (63)": {
+		"prefix": "dmg taken from crit increased",
+		"body": "\"dmg taken from crit increased\"",
+		"description": "(percentage) %s1% critical hit damage vulnerability on wearer"
+	},
+	"(+) Attribute: dmg taken from blast reduced (64)": {
+		"prefix": "dmg taken from blast reduced",
+		"body": "\"dmg taken from blast reduced\"",
+		"description": "(inverted_percentage) +%s1% explosive damage resistance on wearer"
+	},
+	"(-) Attribute: dmg taken from blast increased (65)": {
+		"prefix": "dmg taken from blast increased",
+		"body": "\"dmg taken from blast increased\"",
+		"description": "(percentage) %s1% explosive damage vulnerability on wearer"
+	},
+	"(+) Attribute: dmg taken from bullets reduced (66)": {
+		"prefix": "dmg taken from bullets reduced",
+		"body": "\"dmg taken from bullets reduced\"",
+		"description": "(inverted_percentage) +%s1% bullet damage resistance on wearer"
+	},
+	"(-) Attribute: dmg taken from bullets increased (67)": {
+		"prefix": "dmg taken from bullets increased",
+		"body": "\"dmg taken from bullets increased\"",
+		"description": "(percentage) %s1% bullet damage vulnerability on wearer"
+	},
+	"(+) Attribute: increase player capture value (68)": {
+		"prefix": "increase player capture value",
+		"body": "\"increase player capture value\"",
+		"description": "(additive) +%s1 capture rate on wearer"
+	},
+	"(-) Attribute: health from healers reduced (69)": {
+		"prefix": "health from healers reduced",
+		"body": "\"health from healers reduced\"",
+		"description": "(percentage) %s1% health from healers on wearer"
+	},
+	"(+) Attribute: health from healers increased (70)": {
+		"prefix": "health from healers increased",
+		"body": "\"health from healers increased\"",
+		"description": "(percentage) +%s1% health from healers on wearer"
+	},
+	"(+) Attribute: weapon burn dmg increased (71)": {
+		"prefix": "weapon burn dmg increased",
+		"body": "\"weapon burn dmg increased\"",
+		"description": "(percentage) +%s1% afterburn damage bonus"
+	},
+	"(-) Attribute: weapon burn dmg reduced (72)": {
+		"prefix": "weapon burn dmg reduced",
+		"body": "\"weapon burn dmg reduced\"",
+		"description": "(percentage) %s1% afterburn damage penalty"
+	},
+	"(+) Attribute: weapon burn time increased (73)": {
+		"prefix": "weapon burn time increased",
+		"body": "\"weapon burn time increased\"",
+		"description": "(percentage) +%s1% afterburn duration"
+	},
+	"(-) Attribute: weapon burn time reduced (74)": {
+		"prefix": "weapon burn time reduced",
+		"body": "\"weapon burn time reduced\"",
+		"description": "(percentage) %s1% afterburn duration"
+	},
+	"(+) Attribute: aiming movespeed increased (75)": {
+		"prefix": "aiming movespeed increased",
+		"body": "\"aiming movespeed increased\"",
+		"description": "(percentage) +%s1% faster move speed while deployed"
+	},
+	"(+) Attribute: maxammo primary increased (76)": {
+		"prefix": "maxammo primary increased",
+		"body": "\"maxammo primary increased\"",
+		"description": "(percentage) +%s1% max primary ammo on wearer"
+	},
+	"(-) Attribute: maxammo primary reduced (77)": {
+		"prefix": "maxammo primary reduced",
+		"body": "\"maxammo primary reduced\"",
+		"description": "(percentage) %s1% max primary ammo on wearer"
+	},
+	"(+) Attribute: maxammo secondary increased (78)": {
+		"prefix": "maxammo secondary increased",
+		"body": "\"maxammo secondary increased\"",
+		"description": "(percentage) +%s1% max secondary ammo on wearer"
+	},
+	"(-) Attribute: maxammo secondary reduced (79)": {
+		"prefix": "maxammo secondary reduced",
+		"body": "\"maxammo secondary reduced\"",
+		"description": "(percentage) %s1% max secondary ammo on wearer"
+	},
+	"(+) Attribute: maxammo metal increased (80)": {
+		"prefix": "maxammo metal increased",
+		"body": "\"maxammo metal increased\"",
+		"description": "(percentage) +%s1% max metal on wearer"
+	},
+	"(-) Attribute: maxammo metal reduced (81)": {
+		"prefix": "maxammo metal reduced",
+		"body": "\"maxammo metal reduced\"",
+		"description": "(percentage) %s1% max metal on wearer"
+	},
+	"(-) Attribute: cloak consume rate increased (82)": {
+		"prefix": "cloak consume rate increased",
+		"body": "\"cloak consume rate increased\"",
+		"description": "(percentage) -%s1% cloak duration"
+	},
+	"(+) Attribute: cloak consume rate decreased (83)": {
+		"prefix": "cloak consume rate decreased",
+		"body": "\"cloak consume rate decreased\"",
+		"description": "(inverted_percentage) +%s1% cloak duration"
+	},
+	"(+) Attribute: cloak regen rate increased (84)": {
+		"prefix": "cloak regen rate increased",
+		"body": "\"cloak regen rate increased\"",
+		"description": "(percentage) +%s1% cloak regeneration rate"
+	},
+	"(-) Attribute: cloak regen rate decreased (85)": {
+		"prefix": "cloak regen rate decreased",
+		"body": "\"cloak regen rate decreased\"",
+		"description": "(percentage) %s1% cloak regeneration rate"
+	},
+	"(-) Attribute: minigun spinup time increased (86)": {
+		"prefix": "minigun spinup time increased",
+		"body": "\"minigun spinup time increased\"",
+		"description": "(percentage) %s1% slower spin up time"
+	},
+	"(+) Attribute: minigun spinup time decreased (87)": {
+		"prefix": "minigun spinup time decreased",
+		"body": "\"minigun spinup time decreased\"",
+		"description": "(inverted_percentage) %s1% faster spin up time"
+	},
+	"(+) Attribute: max pipebombs increased (88)": {
+		"prefix": "max pipebombs increased",
+		"body": "\"max pipebombs increased\"",
+		"description": "(additive) +%s1 max stickybombs out"
+	},
+	"(-) Attribute: max pipebombs decreased (89)": {
+		"prefix": "max pipebombs decreased",
+		"body": "\"max pipebombs decreased\"",
+		"description": "(additive) %s1 max stickybombs out"
+	},
+	"(+) Attribute: SRifle Charge rate increased (90)": {
+		"prefix": "SRifle Charge rate increased",
+		"body": "\"SRifle Charge rate increased\"",
+		"description": "(percentage) %s1% faster power charge"
+	},
+	"(-) Attribute: SRifle Charge rate decreased (91)": {
+		"prefix": "SRifle Charge rate decreased",
+		"body": "\"SRifle Charge rate decreased\"",
+		"description": "(inverted_percentage) %s1% slower power charge"
+	},
+	"(+) Attribute: Construction rate increased (92)": {
+		"prefix": "Construction rate increased",
+		"body": "\"Construction rate increased\"",
+		"description": "(percentage) Construction hit speed boost increased by %s1%"
+	},
+	"(-) Attribute: Construction rate decreased (93)": {
+		"prefix": "Construction rate decreased",
+		"body": "\"Construction rate decreased\"",
+		"description": "(inverted_percentage) Construction hit speed boost decreased by %s1%"
+	},
+	"(+) Attribute: Repair rate increased (94)": {
+		"prefix": "Repair rate increased",
+		"body": "\"Repair rate increased\"",
+		"description": "(percentage) %s1% faster repair rate"
+	},
+	"(-) Attribute: Repair rate decreased (95)": {
+		"prefix": "Repair rate decreased",
+		"body": "\"Repair rate decreased\"",
+		"description": "(inverted_percentage) %s1% slower repair rate"
+	},
+	"(-) Attribute: Reload time increased (96)": {
+		"prefix": "Reload time increased",
+		"body": "\"Reload time increased\"",
+		"description": "(percentage) %s1% slower reload time"
+	},
+	"(+) Attribute: Reload time decreased (97)": {
+		"prefix": "Reload time decreased",
+		"body": "\"Reload time decreased\"",
+		"description": "(inverted_percentagE) %s1% faster reload time"
+	},
+	"(-) Attribute: selfdmg on hit for rapidfire (98)": {
+		"prefix": "selfdmg on hit for rapidfire",
+		"body": "\"selfdmg on hit for rapidfire\"",
+		"description": "(additive) On Hit: %s1 health"
+	},
+	"(+) Attribute: Blast radius increased (99)": {
+		"prefix": "Blast radius increased",
+		"body": "\"Blast radius increased\"",
+		"description": "(percentage) +%s1% explosion radius"
+	},
+	"(-) Attribute: Blast radius decreased (100)": {
+		"prefix": "Blast radius decreased",
+		"body": "\"Blast radius decreased\"",
+		"description": "(percentage) %s1% explosion radius"
+	},
+	"(+) Attribute: Projectile range increased (101)": {
+		"prefix": "Projectile range increased",
+		"body": "\"Projectile range increased\"",
+		"description": "(percentage) +%s1% projectile range"
+	},
+	"(-) Attribute: Projectile range decreased (102)": {
+		"prefix": "Projectile range decreased",
+		"body": "\"Projectile range decreased\"",
+		"description": "(percentage) %s1% projectile range"
+	},
+	"(+) Attribute: Projectile speed increased (103)": {
+		"prefix": "Projectile speed increased",
+		"body": "\"Projectile speed increased\"",
+		"description": "(percentage) +%s1% projectile speed"
+	},
+	"(-) Attribute: Projectile speed decreased (104)": {
+		"prefix": "Projectile speed decreased",
+		"body": "\"Projectile speed decreased\"",
+		"description": "(percentage) %s1% projectile speed"
+	},
+	"(-) Attribute: overheal penalty (105)": {
+		"prefix": "overheal penalty",
+		"body": "\"overheal penalty\"",
+		"description": "(inverted_percentage) %s1% max overheal"
+	},
+	"(+) Attribute: weapon spread bonus (106)": {
+		"prefix": "weapon spread bonus",
+		"body": "\"weapon spread bonus\"",
+		"description": "(inverted_percentage) %s1% more accurate"
+	},
+	"(+) Attribute: move speed bonus (107)": {
+		"prefix": "move speed bonus",
+		"body": "\"move speed bonus\"",
+		"description": "(percentage) +%s1% faster move speed on wearer"
+	},
+	"(+) Attribute: health from packs increased (108)": {
+		"prefix": "health from packs increased",
+		"body": "\"health from packs increased\"",
+		"description": "(percentage) +%s1% health from packs on wearer"
+	},
+	"(-) Attribute: health from packs decreased (109)": {
+		"prefix": "health from packs decreased",
+		"body": "\"health from packs decreased\"",
+		"description": "(percentage) %s1% health from packs on wearer"
+	},
+	"(+) Attribute: heal on hit for slowfire (110)": {
+		"prefix": "heal on hit for slowfire",
+		"body": "\"heal on hit for slowfire\"",
+		"description": "(additive) On Hit: Gain up to +%s1 health"
+	},
+	"(-) Attribute: selfdmg on hit for slowfire (111)": {
+		"prefix": "selfdmg on hit for slowfire",
+		"body": "\"selfdmg on hit for slowfire\"",
+		"description": "(additive) On Hit: %s1 health"
+	},
+	"(+) Attribute: ammo regen (112)": {
+		"prefix": "ammo regen",
+		"body": "\"ammo regen\"",
+		"description": "(additive_percentage) +%s1% ammo regenerated every 5 seconds on wearer"
+	},
+	"(+) Attribute: metal regen (113)": {
+		"prefix": "metal regen",
+		"body": "\"metal regen\"",
+		"description": "(additive) +%s1 metal regenerated every 5 seconds on wearer"
+	},
+	"(+) Attribute: mod mini-crit airborne (114)": {
+		"prefix": "mod mini-crit airborne",
+		"body": "\"mod mini-crit airborne\"",
+		"description": "(additive) Mini-crits targets launched airborne by explosions, grapple hooks or rocket packs"
+	},
+	"(+) Attribute: mod shovel damage boost (115)": {
+		"prefix": "mod shovel damage boost",
+		"body": "\"mod shovel damage boost\"",
+		"description": "(additive) Damage increases as the user becomes injured"
+	},
+	"(+) Attribute: mod soldier buff type (116)": {
+		"prefix": "mod soldier buff type",
+		"body": "\"mod soldier buff type\"",
+		"description": "(additive) Attrib_SoldierBuffType"
+	},
+	"(-) Attribute: dmg falloff increased (117)": {
+		"prefix": "dmg falloff increased",
+		"body": "\"dmg falloff increased\"",
+		"description": "(inverted_percentage) Attrib_Dmg_Falloff_Increased"
+	},
+	"(+) Attribute: dmg falloff decreased (118)": {
+		"prefix": "dmg falloff decreased",
+		"body": "\"dmg falloff decreased\"",
+		"description": "(percentage) %s1% splash damage fall off"
+	},
+	"(+) Attribute: sticky detonate mode (119)": {
+		"prefix": "sticky detonate mode",
+		"body": "\"sticky detonate mode\"",
+		"description": "(additive) Detonates stickybombs near the crosshair and directly under your feet"
+	},
+	"(-) Attribute: sticky arm time penalty (120)": {
+		"prefix": "sticky arm time penalty",
+		"body": "\"sticky arm time penalty\"",
+		"description": "(additive) %s1 sec slower bomb arm time"
+	},
+	"(+) Attribute: stickies detonate stickies (121)": {
+		"prefix": "stickies detonate stickies",
+		"body": "\"stickies detonate stickies\"",
+		"description": "(additive) Able to destroy enemy stickybomb"
+	},
+	"(+) Attribute: mod demo buff type (122)": {
+		"prefix": "mod demo buff type",
+		"body": "\"mod demo buff type\"",
+		"description": "(additive) Attrib_DemoBuffType"
+	},
+	"(+) Attribute: speed boost when active (123)": {
+		"prefix": "speed boost when active",
+		"body": "\"speed boost when active\"",
+		"description": "(percentage) %s1% speed boost while active weapon"
+	},
+	"(-) Attribute: mod wrench builds minisentry (124)": {
+		"prefix": "mod wrench builds minisentry",
+		"body": "\"mod wrench builds minisentry\"",
+		"description": "(additive) Replaces the Sentry with a Mini-Sentry"
+	},
+	"(-) Attribute: max health additive penalty (125)": {
+		"prefix": "max health additive penalty",
+		"body": "\"max health additive penalty\"",
+		"description": "(additive) %s1 max health on wearer"
+	},
+	"(+) Attribute: sticky arm time bonus (126)": {
+		"prefix": "sticky arm time bonus",
+		"body": "\"sticky arm time bonus\"",
+		"description": "(additive) %s1 sec faster bomb arm time"
+	},
+	"(-) Attribute: sticky air burst mode (127)": {
+		"prefix": "sticky air burst mode",
+		"body": "\"sticky air burst mode\"",
+		"description": "(additive) Launched bombs shatter on surfaces"
+	},
+	"(=) Attribute: provide on active (128)": {
+		"prefix": "provide on active",
+		"body": "\"provide on active\"",
+		"description": "(additive) When weapon is active:"
+	},
+	"(-) Attribute: health drain (129)": {
+		"prefix": "health drain",
+		"body": "\"health drain\"",
+		"description": "(additive) %s1 health drained per second on wearer"
+	},
+	"(+) Attribute: medic regen bonus (130)": {
+		"prefix": "medic regen bonus",
+		"body": "\"medic regen bonus\"",
+		"description": "(percentage) +%s1% natural regen rate"
+	},
+	"(-) Attribute: medic regen penalty (131)": {
+		"prefix": "medic regen penalty",
+		"body": "\"medic regen penalty\"",
+		"description": "(percentage) -%s1% natural regen rate"
+	},
+	"(=) Attribute: community description (132)": {
+		"prefix": "community description",
+		"body": "\"community description\"",
+		"description": "(percentage) Given to valuable Community Contributors"
+	},
+	"(=) Attribute: soldier model index (133)": {
+		"prefix": "soldier model index",
+		"body": "\"soldier model index\"",
+		"description": "(additive) Medal no. %s1"
+	},
+	"(=) Attribute: attach particle effect (134)": {
+		"prefix": "attach particle effect",
+		"body": "\"attach particle effect\"",
+		"description": "(particle_index) ★ Unusual Effect: %s1"
+	},
+	"(+) Attribute: rocket jump damage reduction (135)": {
+		"prefix": "rocket jump damage reduction",
+		"body": "\"rocket jump damage reduction\"",
+		"description": "(percentage) %s1% blast damage from rocket jumps"
+	},
+	"(+) Attribute: mod sentry killed revenge (136)": {
+		"prefix": "mod sentry killed revenge",
+		"body": "\"mod sentry killed revenge\"",
+		"description": "(additive) Gain 2 revenge crits for each sentry kill and 1 for each sentry assist when your sentry is destroyed."
+	},
+	"(+) Attribute: dmg bonus vs buildings (137)": {
+		"prefix": "dmg bonus vs buildings",
+		"body": "\"dmg bonus vs buildings\"",
+		"description": "(percentage) +%s1% damage vs buildings"
+	},
+	"(-) Attribute: dmg penalty vs players (138)": {
+		"prefix": "dmg penalty vs players",
+		"body": "\"dmg penalty vs players\"",
+		"description": "(percentage) %s1% damage vs players"
+	},
+	"(+) Attribute: lunchbox adds maxhealth bonus (139)": {
+		"prefix": "lunchbox adds maxhealth bonus",
+		"body": "\"lunchbox adds maxhealth bonus\"",
+		"description": "(additive) Adds +50 max health for 30 seconds"
+	},
+	"(+) Attribute: hidden maxhealth non buffed (140)": {
+		"prefix": "hidden maxhealth non buffed",
+		"body": "\"hidden maxhealth non buffed\"",
+		"description": "(additive) +%s1 max health on wearer"
+	},
+	"(=) Attribute: selfmade description (141)": {
+		"prefix": "selfmade description",
+		"body": "\"selfmade description\"",
+		"description": "(percentage) I made this!"
+	},
+	"(=) Attribute: set item tint RGB (142)": {
+		"prefix": "set item tint RGB",
+		"body": "\"set item tint RGB\"",
+		"description": "(additive) Item tint color code: %s1"
+	},
+	"(=) Attribute: custom employee number (143)": {
+		"prefix": "custom employee number",
+		"body": "\"custom employee number\"",
+		"description": "(date) Hire Date: %s1"
+	},
+	"(=) Attribute: lunchbox adds minicrits (144)": {
+		"prefix": "lunchbox adds minicrits",
+		"body": "\"lunchbox adds minicrits\"",
+		"description": "(additive) Sets weapon mode #%s1"
+	},
+	"(=) Attribute: taunt is highfive (145)": {
+		"prefix": "taunt is highfive",
+		"body": "\"taunt is highfive\"",
+		"description": "(additive) %s1% damage penalty"
+	},
+	"(+) Attribute: damage applies to sappers (146)": {
+		"prefix": "damage applies to sappers",
+		"body": "\"damage applies to sappers\"",
+		"description": "(additive) Damage removes Sappers"
+	},
+	"(=) Attribute: Wrench index (147)": {
+		"prefix": "Wrench index",
+		"body": "\"Wrench index\"",
+		"description": "(additive) Wrench no. %s1"
+	},
+	"(+) Attribute: building cost reduction (148)": {
+		"prefix": "building cost reduction",
+		"body": "\"building cost reduction\"",
+		"description": "(percentage) %s1 metal reduction in building cost"
+	},
+	"(+) Attribute: bleeding duration (149)": {
+		"prefix": "bleeding duration",
+		"body": "\"bleeding duration\"",
+		"description": "(additive) On Hit: Bleed for %s1 seconds"
+	},
+	"(+) Attribute: turn to gold (150)": {
+		"prefix": "turn to gold",
+		"body": "\"turn to gold\"",
+		"description": "(additive) Imbued with an ancient power"
+	},
+	"(+) Attribute: DEPRECATED socketed item definition id DEPRECATED (151)": {
+		"prefix": "DEPRECATED socketed item definition id DEPRECATED",
+		"body": "\"DEPRECATED socketed item definition id DEPRECATED\"",
+		"description": "(additive) DEPRECATED socketed item definition id DEPRECATED"
+	},
+	"(+) Attribute: custom texture lo (152)": {
+		"prefix": "custom texture lo",
+		"body": "\"custom texture lo\"",
+		"description": "(additive) Custom Texture"
+	},
+	"(=) Attribute: cannot trade (153)": {
+		"prefix": "cannot trade",
+		"body": "\"cannot trade\"",
+		"description": "(additive) Not Tradable or Marketable"
+	},
+	"(+) Attribute: disguise on backstab (154)": {
+		"prefix": "disguise on backstab",
+		"body": "\"disguise on backstab\"",
+		"description": "(additive) Upon a successful backstab against a human target, you rapidly disguise as your victim"
+	},
+	"(-) Attribute: cannot disguise (155)": {
+		"prefix": "cannot disguise",
+		"body": "\"cannot disguise\"",
+		"description": "(additive) Wearer cannot disguise"
+	},
+	"(+) Attribute: silent killer (156)": {
+		"prefix": "silent killer",
+		"body": "\"silent killer\"",
+		"description": "(additive) Silent Killer: No attack noise from backstabs"
+	},
+	"(-) Attribute: disguise speed penalty (157)": {
+		"prefix": "disguise speed penalty",
+		"body": "\"disguise speed penalty\"",
+		"description": "(additive) %s1 sec slower disguise speed"
+	},
+	"(+) Attribute: add cloak on kill (158)": {
+		"prefix": "add cloak on kill",
+		"body": "\"add cloak on kill\"",
+		"description": "(additive) +%s1% cloak on kill"
+	},
+	"(-) Attribute: SET BONUS: cloak blink time penalty (159)": {
+		"prefix": "SET BONUS: cloak blink time penalty",
+		"body": "\"SET BONUS: cloak blink time penalty\"",
+		"description": "(additive) %s1 sec longer cloak blink time"
+	},
+	"(+) Attribute: SET BONUS: quiet unstealth (160)": {
+		"prefix": "SET BONUS: quiet unstealth",
+		"body": "\"SET BONUS: quiet unstealth\"",
+		"description": "(additive) Reduced decloak sound volume"
+	},
+	"(-) Attribute: flame size penalty (161)": {
+		"prefix": "flame size penalty",
+		"body": "\"flame size penalty\"",
+		"description": "(percentage) %s1% less flame spread area"
+	},
+	"(+) Attribute: flame size bonus (162)": {
+		"prefix": "flame size bonus",
+		"body": "\"flame size bonus\"",
+		"description": "(percentage) +%s1% more flame spread area"
+	},
+	"(-) Attribute: flame life penalty (163)": {
+		"prefix": "flame life penalty",
+		"body": "\"flame life penalty\"",
+		"description": "(percentage) %s1% less flame distance"
+	},
+	"(+) Attribute: flame life bonus (164)": {
+		"prefix": "flame life bonus",
+		"body": "\"flame life bonus\"",
+		"description": "(percentage) +%s1% more flame distance"
+	},
+	"(=) Attribute: charged airblast (165)": {
+		"prefix": "charged airblast",
+		"body": "\"charged airblast\"",
+		"description": "(additive) Airblast can now be charged, which will push enemies further"
+	},
+	"(+) Attribute: add cloak on hit (166)": {
+		"prefix": "add cloak on hit",
+		"body": "\"add cloak on hit\"",
+		"description": "(additive) +%s1% cloak on hit"
+	},
+	"(+) Attribute: disguise damage reduction (167)": {
+		"prefix": "disguise damage reduction",
+		"body": "\"disguise damage reduction\"",
+		"description": "(percentage) Attrib_DisguiseDamageReduction"
+	},
+	"(+) Attribute: disguise no burn (168)": {
+		"prefix": "disguise no burn",
+		"body": "\"disguise no burn\"",
+		"description": "(additive) Immune to fire damage while disguised"
+	},
+	"(+) Attribute: SET BONUS: dmg from sentry reduced (169)": {
+		"prefix": "SET BONUS: dmg from sentry reduced",
+		"body": "\"SET BONUS: dmg from sentry reduced\"",
+		"description": "(inverted_percentage) +%s1% sentry damage resistance on wearer"
+	},
+	"(-) Attribute: airblast cost increased (170)": {
+		"prefix": "airblast cost increased",
+		"body": "\"airblast cost increased\"",
+		"description": "(percentage) +%s1% airblast cost"
+	},
+	"(+) Attribute: airblast cost decreased (171)": {
+		"prefix": "airblast cost decreased",
+		"body": "\"airblast cost decreased\"",
+		"description": "(percentage) %s1% airblast cost"
+	},
+	"(=) Attribute: purchased (172)": {
+		"prefix": "purchased",
+		"body": "\"purchased\"",
+		"description": "(additive) Purchased: Not Tradable, Marketable, or Usable in Crafting"
+	},
+	"(-) Attribute: flame ammopersec increased (173)": {
+		"prefix": "flame ammopersec increased",
+		"body": "\"flame ammopersec increased\"",
+		"description": "(percentage) +%s1% flamethrower ammo consumed per second"
+	},
+	"(+) Attribute: flame ammopersec decreased (174)": {
+		"prefix": "flame ammopersec decreased",
+		"body": "\"flame ammopersec decreased\"",
+		"description": "(percentage) %s1% flamethrower ammo consumed per second"
+	},
+	"(+) Attribute: jarate duration (175)": {
+		"prefix": "jarate duration",
+		"body": "\"jarate duration\"",
+		"description": "(additive) On Scoped Hit: Apply Jarate for 2 to %s1 seconds based on charge level. Nature's Call: Scoped headshots always mini-crits and reduce the remaining cooldown of Jarate by 1 second."
+	},
+	"(+) Attribute: SET BONUS: no death from headshots (176)": {
+		"prefix": "SET BONUS: no death from headshots",
+		"body": "\"SET BONUS: no death from headshots\"",
+		"description": "(additive) The wearer cannot be killed by headshots"
+	},
+	"(-) Attribute: deploy time increased (177)": {
+		"prefix": "deploy time increased",
+		"body": "\"deploy time increased\"",
+		"description": "(percentage) %s1% longer weapon switch"
+	},
+	"(+) Attribute: deploy time decreased (178)": {
+		"prefix": "deploy time decreased",
+		"body": "\"deploy time decreased\"",
+		"description": "(inverted_percentage) %s1% faster weapon switch"
+	},
+	"(+) Attribute: minicrits become crits (179)": {
+		"prefix": "minicrits become crits",
+		"body": "\"minicrits become crits\"",
+		"description": "(additive) Crits whenever it would normally mini-crit"
+	},
+	"(+) Attribute: heal on kill (180)": {
+		"prefix": "heal on kill",
+		"body": "\"heal on kill\"",
+		"description": "(additive) +%s1 health restored on kill"
+	},
+	"(+) Attribute: no self blast dmg (181)": {
+		"prefix": "no self blast dmg",
+		"body": "\"no self blast dmg\"",
+		"description": "(additive) No self inflicted blast damage taken"
+	},
+	"(+) Attribute: slow enemy on hit major (182)": {
+		"prefix": "slow enemy on hit major",
+		"body": "\"slow enemy on hit major\"",
+		"description": "(additive) On Hit: Slow target movement by 40% for %s1s"
+	},
+	"(-) Attribute: aiming movespeed decreased (183)": {
+		"prefix": "aiming movespeed decreased",
+		"body": "\"aiming movespeed decreased\"",
+		"description": "(percentage) %s1% slower move speed while deployed"
+	},
+	"(=) Attribute: duel loser account id (184)": {
+		"prefix": "duel loser account id",
+		"body": "\"duel loser account id\"",
+		"description": "(account_id) Attrib_DuelLoserAccountID"
+	},
+	"(=) Attribute: event date (185)": {
+		"prefix": "event date",
+		"body": "\"event date\"",
+		"description": "(date) Date Received: %s1"
+	},
+	"(+) Attribute: gifter account id (186)": {
+		"prefix": "gifter account id",
+		"body": "\"gifter account id\"",
+		"description": "(account_id) Gift from: %s1"
+	},
+	"(+) Attribute: set supply crate series (187)": {
+		"prefix": "set supply crate series",
+		"body": "\"set supply crate series\"",
+		"description": "(additive) Crate Series #%s1"
+	},
+	"(+) Attribute: preserve ubercharge (188)": {
+		"prefix": "preserve ubercharge",
+		"body": "\"preserve ubercharge\"",
+		"description": "(additive) On death up to %s1% of your stored ÜberCharge is retained"
+	},
+	"(+) Attribute: elevate quality (189)": {
+		"prefix": "elevate quality",
+		"body": "\"elevate quality\"",
+		"description": "(additive) Attrib_ElevateQuality"
+	},
+	"(+) Attribute: active health regen (190)": {
+		"prefix": "active health regen",
+		"body": "\"active health regen\"",
+		"description": "(additive) +%s1 health regenerated per second on wearer"
+	},
+	"(-) Attribute: active health degen (191)": {
+		"prefix": "active health degen",
+		"body": "\"active health degen\"",
+		"description": "(additive) %s1 health drained per second on wearer"
+	},
+	"(-) Attribute: referenced item id low (192)": {
+		"prefix": "referenced item id low",
+		"body": "\"referenced item id low\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: referenced item id high (193)": {
+		"prefix": "referenced item id high",
+		"body": "\"referenced item id high\"",
+		"description": "(additive)"
+	},
+	"(=) Attribute: referenced item def UPDATED (194)": {
+		"prefix": "referenced item def UPDATED",
+		"body": "\"referenced item def UPDATED\"",
+		"description": "(item_def) Contains: %s1"
+	},
+	"(-) Attribute: always tradable (195)": {
+		"prefix": "always tradable",
+		"body": "\"always tradable\"",
+		"description": "(additive) Always Tradable"
+	},
+	"(=) Attribute: noise maker (196)": {
+		"prefix": "noise maker",
+		"body": "\"noise maker\"",
+		"description": "(additive) Noise Maker"
+	},
+	"(+) Attribute: halloween item (197)": {
+		"prefix": "halloween item",
+		"body": "\"halloween item\"",
+		"description": "(additive) This is a special Halloween %s1 item"
+	},
+	"(+) Attribute: collection bits DEPRECATED (198)": {
+		"prefix": "collection bits DEPRECATED",
+		"body": "\"collection bits DEPRECATED\"",
+		"description": "(additive) This is a special Halloween %s1 item"
+	},
+	"(+) Attribute: switch from wep deploy time decreased (199)": {
+		"prefix": "switch from wep deploy time decreased",
+		"body": "\"switch from wep deploy time decreased\"",
+		"description": "(inverted_percentage) This weapon holsters %s1% faster"
+	},
+	"(+) Attribute: enables aoe heal (200)": {
+		"prefix": "enables aoe heal",
+		"body": "\"enables aoe heal\"",
+		"description": "(additive) Alt-Fire: Applies a healing effect to all nearby teammates"
+	},
+	"(+) Attribute: gesture speed increase (201)": {
+		"prefix": "gesture speed increase",
+		"body": "\"gesture speed increase\"",
+		"description": "(percentage) +%s1% faster taunt speed on wearer"
+	},
+	"(+) Attribute: charge time increased (202)": {
+		"prefix": "charge time increased",
+		"body": "\"charge time increased\"",
+		"description": "(additive) %s1 sec increase in charge duration"
+	},
+	"(+) Attribute: drop health pack on kill (203)": {
+		"prefix": "drop health pack on kill",
+		"body": "\"drop health pack on kill\"",
+		"description": "(additive) On Kill: A small health pack is dropped"
+	},
+	"(-) Attribute: hit self on miss (204)": {
+		"prefix": "hit self on miss",
+		"body": "\"hit self on miss\"",
+		"description": "(additive) On Miss: Hit yourself. Idiot."
+	},
+	"(+) Attribute: dmg from ranged reduced (205)": {
+		"prefix": "dmg from ranged reduced",
+		"body": "\"dmg from ranged reduced\"",
+		"description": "(percentage) %s1% damage from ranged sources while active"
+	},
+	"(-) Attribute: dmg from melee increased (206)": {
+		"prefix": "dmg from melee increased",
+		"body": "\"dmg from melee increased\"",
+		"description": "(percentage) +%s1% damage from melee sources while active"
+	},
+	"(-) Attribute: blast dmg to self increased (207)": {
+		"prefix": "blast dmg to self increased",
+		"body": "\"blast dmg to self increased\"",
+		"description": "(percentage) +%s1% damage to self"
+	},
+	"(+) Attribute: Set DamageType Ignite (208)": {
+		"prefix": "Set DamageType Ignite",
+		"body": "\"Set DamageType Ignite\"",
+		"description": "(additive) On Hit: target is engulfed in flames"
+	},
+	"(+) Attribute: minicrit vs burning player (209)": {
+		"prefix": "minicrit vs burning player",
+		"body": "\"minicrit vs burning player\"",
+		"description": "(additive) 100% minicrits vs burning players"
+	},
+	"(-) Attribute: tradable after date (211)": {
+		"prefix": "tradable after date",
+		"body": "\"tradable after date\"",
+		"description": "(date) Tradable After: %s1"
+	},
+	"(+) Attribute: force level display (212)": {
+		"prefix": "force level display",
+		"body": "\"force level display\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: kill eater (214)": {
+		"prefix": "kill eater",
+		"body": "\"kill eater\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: apply z velocity on damage (215)": {
+		"prefix": "apply z velocity on damage",
+		"body": "\"apply z velocity on damage\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: apply look velocity on damage (216)": {
+		"prefix": "apply look velocity on damage",
+		"body": "\"apply look velocity on damage\"",
+		"description": "(additive) Attrib_Knockback"
+	},
+	"(+) Attribute: sanguisuge (217)": {
+		"prefix": "sanguisuge",
+		"body": "\"sanguisuge\"",
+		"description": "(additive) On Backstab: Absorbs the health from your victim."
+	},
+	"(+) Attribute: mark for death (218)": {
+		"prefix": "mark for death",
+		"body": "\"mark for death\"",
+		"description": "(additive) On Hit: One target at a time is Marked-For-Death, causing all damage taken to be mini-crits"
+	},
+	"(+) Attribute: decapitate type (219)": {
+		"prefix": "decapitate type",
+		"body": "\"decapitate type\"",
+		"description": "(additive) %s1% damage penalty"
+	},
+	"(+) Attribute: restore health on kill (220)": {
+		"prefix": "restore health on kill",
+		"body": "\"restore health on kill\"",
+		"description": "(additive) On Kill: Gain %s1% of base health on kill"
+	},
+	"(+) Attribute: mult decloak rate (221)": {
+		"prefix": "mult decloak rate",
+		"body": "\"mult decloak rate\"",
+		"description": "(additive) Attrib_DecloakRate"
+	},
+	"(+) Attribute: mult sniper charge after bodyshot (222)": {
+		"prefix": "mult sniper charge after bodyshot",
+		"body": "\"mult sniper charge after bodyshot\"",
+		"description": "(percentage) On Scoped Bodyshot: Rifle charge rate increased by %s1%"
+	},
+	"(-) Attribute: mult sniper charge after miss (223)": {
+		"prefix": "mult sniper charge after miss",
+		"body": "\"mult sniper charge after miss\"",
+		"description": "(percentage) On Scoped Miss: Rifle charge rate decreased by %s1%"
+	},
+	"(+) Attribute: dmg bonus while half dead (224)": {
+		"prefix": "dmg bonus while half dead",
+		"body": "\"dmg bonus while half dead\"",
+		"description": "(percentage) %s1% increase in damage when health <50% of max"
+	},
+	"(-) Attribute: dmg penalty while half alive (225)": {
+		"prefix": "dmg penalty while half alive",
+		"body": "\"dmg penalty while half alive\"",
+		"description": "(percentage) %s1% decrease in damage when health >50% of max"
+	},
+	"(-) Attribute: honorbound (226)": {
+		"prefix": "honorbound",
+		"body": "\"honorbound\"",
+		"description": "(additive) Honorbound: Once drawn sheathing deals 50 damage to yourself unless it kills."
+	},
+	"(+) Attribute: custom texture hi (227)": {
+		"prefix": "custom texture hi",
+		"body": "\"custom texture hi\"",
+		"description": "(additive) Custom Texture"
+	},
+	"(+) Attribute: makers mark id (228)": {
+		"prefix": "makers mark id",
+		"body": "\"makers mark id\"",
+		"description": "(account_id) Crafted by %s1"
+	},
+	"(+) Attribute: unique craft index (229)": {
+		"prefix": "unique craft index",
+		"body": "\"unique craft index\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: mod medic killed revenge (230)": {
+		"prefix": "mod medic killed revenge",
+		"body": "\"mod medic killed revenge\"",
+		"description": "(additive) When the medic healing you is killed you gain 2 revenge crits"
+	},
+	"(=) Attribute: medigun charge is megaheal (231)": {
+		"prefix": "medigun charge is megaheal",
+		"body": "\"medigun charge is megaheal\"",
+		"description": "(additive) ÜberCharge increases healing to 300% and grants immunity to movement-impairing effects"
+	},
+	"(+) Attribute: mod medic killed minicrit boost (232)": {
+		"prefix": "mod medic killed minicrit boost",
+		"body": "\"mod medic killed minicrit boost\"",
+		"description": "(additive) When the medic healing you is killed you gain mini-crit boost for %s1 seconds"
+	},
+	"(+) Attribute: mod medic healed damage bonus (233)": {
+		"prefix": "mod medic healed damage bonus",
+		"body": "\"mod medic healed damage bonus\"",
+		"description": "(percentage) While a medic is healing you, this weapon's damage is increased by %s1%"
+	},
+	"(-) Attribute: mod medic healed deploy time penalty (234)": {
+		"prefix": "mod medic healed deploy time penalty",
+		"body": "\"mod medic healed deploy time penalty\"",
+		"description": "(percentage) While not being healed by a medic, your weapon switch time is %s1% longer"
+	},
+	"(+) Attribute: mod shovel speed boost (235)": {
+		"prefix": "mod shovel speed boost",
+		"body": "\"mod shovel speed boost\"",
+		"description": "(additive) Move speed increases as the user becomes injured"
+	},
+	"(-) Attribute: mod weapon blocks healing (236)": {
+		"prefix": "mod weapon blocks healing",
+		"body": "\"mod weapon blocks healing\"",
+		"description": "(additive) Blocks healing while in use"
+	},
+	"(+) Attribute: mult sniper charge after headshot (237)": {
+		"prefix": "mult sniper charge after headshot",
+		"body": "\"mult sniper charge after headshot\"",
+		"description": "(percentage) On Scoped Headshot: Rifle charge rate increased by %s1%"
+	},
+	"(+) Attribute: minigun no spin sounds (238)": {
+		"prefix": "minigun no spin sounds",
+		"body": "\"minigun no spin sounds\"",
+		"description": "(additive) Silent Killer: No barrel spin sound"
+	},
+	"(+) Attribute: ubercharge rate bonus for healer (239)": {
+		"prefix": "ubercharge rate bonus for healer",
+		"body": "\"ubercharge rate bonus for healer\"",
+		"description": "(percentage) +%s1% ÜberCharge rate for the medic healing you. This effect does not work in the respawn room"
+	},
+	"(+) Attribute: reload time decreased while healed (240)": {
+		"prefix": "reload time decreased while healed",
+		"body": "\"reload time decreased while healed\"",
+		"description": "(inverted_percentage) %s1% faster reload time while being healed"
+	},
+	"(-) Attribute: reload time increased hidden (241)": {
+		"prefix": "reload time increased hidden",
+		"body": "\"reload time increased hidden\"",
+		"description": "(percentage) %s1% slower reload time"
+	},
+	"(+) Attribute: mod medic killed marked for death (242)": {
+		"prefix": "mod medic killed marked for death",
+		"body": "\"mod medic killed marked for death\"",
+		"description": "(additive) When the medic healing you is killed the killer becomes Marked-For-Death"
+	},
+	"(-) Attribute: mod rage on hit penalty (243)": {
+		"prefix": "mod rage on hit penalty",
+		"body": "\"mod rage on hit penalty\"",
+		"description": "(additive) %s1% rage lost on hit"
+	},
+	"(+) Attribute: mod rage on hit bonus (244)": {
+		"prefix": "mod rage on hit bonus",
+		"body": "\"mod rage on hit bonus\"",
+		"description": "(additive) %s1% rage gained on hit"
+	},
+	"(+) Attribute: mod rage damage boost (245)": {
+		"prefix": "mod rage damage boost",
+		"body": "\"mod rage damage boost\"",
+		"description": "(percentage) Gains a damage bonus as rage increases, up to %s1%"
+	},
+	"(+) Attribute: mult charge turn control (246)": {
+		"prefix": "mult charge turn control",
+		"body": "\"mult charge turn control\"",
+		"description": "(percentage) +%s1% increase in turning control while charging"
+	},
+	"(+) Attribute: no charge impact range (247)": {
+		"prefix": "no charge impact range",
+		"body": "\"no charge impact range\"",
+		"description": "(additive) Can deal charge impact damage at any range"
+	},
+	"(+) Attribute: charge impact damage increased (248)": {
+		"prefix": "charge impact damage increased",
+		"body": "\"charge impact damage increased\"",
+		"description": "(percentage) +%s1% increase in charge impact damage"
+	},
+	"(+) Attribute: charge recharge rate increased (249)": {
+		"prefix": "charge recharge rate increased",
+		"body": "\"charge recharge rate increased\"",
+		"description": "(percentage) +%s1% increase in charge recharge rate"
+	},
+	"(+) Attribute: air dash count (250)": {
+		"prefix": "air dash count",
+		"body": "\"air dash count\"",
+		"description": "(additive) Grants Triple Jump while deployed. Melee attacks mini-crit while airborne."
+	},
+	"(+) Attribute: speed buff ally (251)": {
+		"prefix": "speed buff ally",
+		"body": "\"speed buff ally\"",
+		"description": "(additive) On Hit Teammate: Boosts both players' speed for several seconds"
+	},
+	"(+) Attribute: damage force reduction (252)": {
+		"prefix": "damage force reduction",
+		"body": "\"damage force reduction\"",
+		"description": "(percentage) %s1% reduction in push force taken from damage"
+	},
+	"(-) Attribute: mult cloak rate (253)": {
+		"prefix": "mult cloak rate",
+		"body": "\"mult cloak rate\"",
+		"description": "(additive) %s1 sec increase in time to cloak"
+	},
+	"(+) Attribute: airblast pushback scale (255)": {
+		"prefix": "airblast pushback scale",
+		"body": "\"airblast pushback scale\"",
+		"description": "(percentage) +%s1% airblast push force"
+	},
+	"(+) Attribute: mult airblast refire time (256)": {
+		"prefix": "mult airblast refire time",
+		"body": "\"mult airblast refire time\"",
+		"description": "(percentage)"
+	},
+	"(+) Attribute: airblast vertical pushback scale (257)": {
+		"prefix": "airblast vertical pushback scale",
+		"body": "\"airblast vertical pushback scale\"",
+		"description": "(percentage)"
+	},
+	"(+) Attribute: ammo becomes health (258)": {
+		"prefix": "ammo becomes health",
+		"body": "\"ammo becomes health\"",
+		"description": "(additive) Ammo collected from ammo boxes becomes health"
+	},
+	"(+) Attribute: boots falling stomp (259)": {
+		"prefix": "boots falling stomp",
+		"body": "\"boots falling stomp\"",
+		"description": "(additive) Deals 3x falling damage to the player you land on"
+	},
+	"(+) Attribute: deflection size multiplier (260)": {
+		"prefix": "deflection size multiplier",
+		"body": "\"deflection size multiplier\"",
+		"description": "(additive) Attrib_DeflectionSizeMultiplier"
+	},
+	"(=) Attribute: set item tint RGB 2 (261)": {
+		"prefix": "set item tint RGB 2",
+		"body": "\"set item tint RGB 2\"",
+		"description": "(additive) Item tint color code: %s1"
+	},
+	"(+) Attribute: saxxy award category (262)": {
+		"prefix": "saxxy award category",
+		"body": "\"saxxy award category\"",
+		"description": "(additive) Winner: %s1 %s2"
+	},
+	"(+) Attribute: melee bounds multiplier (263)": {
+		"prefix": "melee bounds multiplier",
+		"body": "\"melee bounds multiplier\"",
+		"description": "(percentage)"
+	},
+	"(+) Attribute: melee range multiplier (264)": {
+		"prefix": "melee range multiplier",
+		"body": "\"melee range multiplier\"",
+		"description": "(percentage) %s1% increased melee attack range"
+	},
+	"(+) Attribute: mod mini-crit airborne deploy (265)": {
+		"prefix": "mod mini-crit airborne deploy",
+		"body": "\"mod mini-crit airborne deploy\"",
+		"description": "(additive) Attrib_MiniCritAirborneEnemiesDeploy"
+	},
+	"(+) Attribute: projectile penetration (266)": {
+		"prefix": "projectile penetration",
+		"body": "\"projectile penetration\"",
+		"description": "(additive) Projectiles penetrate enemy players"
+	},
+	"(+) Attribute: mod crit while airborne (267)": {
+		"prefix": "mod crit while airborne",
+		"body": "\"mod crit while airborne\"",
+		"description": "(additive) Deals crits while the wielder is rocket jumping"
+	},
+	"(-) Attribute: mult sniper charge penalty DISPLAY ONLY (268)": {
+		"prefix": "mult sniper charge penalty DISPLAY ONLY",
+		"body": "\"mult sniper charge penalty DISPLAY ONLY\"",
+		"description": "(percentage) Base charge rate decreased by %s1%"
+	},
+	"(+) Attribute: mod see enemy health (269)": {
+		"prefix": "mod see enemy health",
+		"body": "\"mod see enemy health\"",
+		"description": "(additive) Allows you to see enemy health"
+	},
+	"(+) Attribute: powerup max charges (270)": {
+		"prefix": "powerup max charges",
+		"body": "\"powerup max charges\"",
+		"description": "(additive) Holds a maximum of %s1 charges"
+	},
+	"(+) Attribute: powerup charges (271)": {
+		"prefix": "powerup charges",
+		"body": "\"powerup charges\"",
+		"description": "(additive) Currently holds %s1 charges"
+	},
+	"(+) Attribute: powerup duration (272)": {
+		"prefix": "powerup duration",
+		"body": "\"powerup duration\"",
+		"description": "(additive) Each charge lasts %s1 seconds"
+	},
+	"(+) Attribute: critboost (273)": {
+		"prefix": "critboost",
+		"body": "\"critboost\"",
+		"description": "(additive) Consumable: Become Crit Boosted for 5 seconds (and double your sentry's firing speed)"
+	},
+	"(+) Attribute: ubercharge (274)": {
+		"prefix": "ubercharge",
+		"body": "\"ubercharge\"",
+		"description": "(additive) Consumable: Become Übercharged for 5 seconds (and shield your sentry from damage)"
+	},
+	"(+) Attribute: cancel falling damage (275)": {
+		"prefix": "cancel falling damage",
+		"body": "\"cancel falling damage\"",
+		"description": "(additive) Wearer never takes falling damage"
+	},
+	"(+) Attribute: bidirectional teleport (276)": {
+		"prefix": "bidirectional teleport",
+		"body": "\"bidirectional teleport\"",
+		"description": "(additive) Teleporters can be used in both directions"
+	},
+	"(+) Attribute: multiple sentries (277)": {
+		"prefix": "multiple sentries",
+		"body": "\"multiple sentries\"",
+		"description": "(additive) Attrib_MultipleSentries"
+	},
+	"(+) Attribute: effect bar recharge rate increased (278)": {
+		"prefix": "effect bar recharge rate increased",
+		"body": "\"effect bar recharge rate increased\"",
+		"description": "(inverted_percentage) +%s1% increase in recharge rate"
+	},
+	"(+) Attribute: maxammo grenades1 increased (279)": {
+		"prefix": "maxammo grenades1 increased",
+		"body": "\"maxammo grenades1 increased\"",
+		"description": "(percentage) +%s1% max misc ammo on wearer"
+	},
+	"(+) Attribute: override projectile type (280)": {
+		"prefix": "override projectile type",
+		"body": "\"override projectile type\"",
+		"description": "(additive) Overrides the projectile fired from the weapon. Takes values from 1 to 26, each representing a different projectile, and not all projectiles work on all weapons"
+	},
+	"(+) Attribute: energy weapon no ammo (281)": {
+		"prefix": "energy weapon no ammo",
+		"body": "\"energy weapon no ammo\"",
+		"description": "(additive) Does not require ammo"
+	},
+	"(+) Attribute: energy weapon charged shot (282)": {
+		"prefix": "energy weapon charged shot",
+		"body": "\"energy weapon charged shot\"",
+		"description": "(additive) Alt-Fire: A charged shot that mini-crits players, sets them on fire, and disables buildings for 4 sec"
+	},
+	"(+) Attribute: energy weapon penetration (283)": {
+		"prefix": "energy weapon penetration",
+		"body": "\"energy weapon penetration\"",
+		"description": "(additive) Projectile penetrates enemy targets"
+	},
+	"(-) Attribute: energy weapon no hurt building (284)": {
+		"prefix": "energy weapon no hurt building",
+		"body": "\"energy weapon no hurt building\"",
+		"description": "(additive) Deals only 20% damage to buildings"
+	},
+	"(+) Attribute: energy weapon no deflect (285)": {
+		"prefix": "energy weapon no deflect",
+		"body": "\"energy weapon no deflect\"",
+		"description": "(additive) Projectile cannot be deflected"
+	},
+	"(+) Attribute: engy building health bonus (286)": {
+		"prefix": "engy building health bonus",
+		"body": "\"engy building health bonus\"",
+		"description": "(percentage) +%s1% max building health"
+	},
+	"(+) Attribute: engy sentry damage bonus (287)": {
+		"prefix": "engy sentry damage bonus",
+		"body": "\"engy sentry damage bonus\"",
+		"description": "(percentage) +%s1% Sentry Gun damage bonus"
+	},
+	"(-) Attribute: no crit boost (288)": {
+		"prefix": "no crit boost",
+		"body": "\"no crit boost\"",
+		"description": "(additive) Cannot be crit boosted"
+	},
+	"(+) Attribute: centerfire projectile (289)": {
+		"prefix": "centerfire projectile",
+		"body": "\"centerfire projectile\"",
+		"description": "(additive) Attrib_CenterFireProjectile"
+	},
+	"(+) Attribute: kill eater score type (292)": {
+		"prefix": "kill eater score type",
+		"body": "\"kill eater score type\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: kill eater score type 2 (293)": {
+		"prefix": "kill eater score type 2",
+		"body": "\"kill eater score type 2\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: kill eater 2 (294)": {
+		"prefix": "kill eater 2",
+		"body": "\"kill eater 2\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: has pipboy build interface (295)": {
+		"prefix": "has pipboy build interface",
+		"body": "\"has pipboy build interface\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: sapper kills collect crits (296)": {
+		"prefix": "sapper kills collect crits",
+		"body": "\"sapper kills collect crits\"",
+		"description": "(additive) Gives one guaranteed critical hit for each building destroyed with your sapper attached or backstab kill"
+	},
+	"(-) Attribute: sniper only fire zoomed (297)": {
+		"prefix": "sniper only fire zoomed",
+		"body": "\"sniper only fire zoomed\"",
+		"description": "(additive) Cannot fire unless zoomed"
+	},
+	"(-) Attribute: mod ammo per shot (298)": {
+		"prefix": "mod ammo per shot",
+		"body": "\"mod ammo per shot\"",
+		"description": "(additive) Per Shot: -%s1 ammo"
+	},
+	"(+) Attribute: add onhit addammo (299)": {
+		"prefix": "add onhit addammo",
+		"body": "\"add onhit addammo\"",
+		"description": "(additive) On Hit: damage dealt is returned as ammo"
+	},
+	"(+) Attribute: electrical airblast DISPLAY ONLY (300)": {
+		"prefix": "electrical airblast DISPLAY ONLY",
+		"body": "\"electrical airblast DISPLAY ONLY\"",
+		"description": "(additive_percentage) Alt-Fire: Launches a projectile-consuming energy ball. Costs 65 metal."
+	},
+	"(-) Attribute: mod use metal ammo type (301)": {
+		"prefix": "mod use metal ammo type",
+		"body": "\"mod use metal ammo type\"",
+		"description": "(additive) Uses metal for ammo"
+	},
+	"(=) Attribute: expiration date (302)": {
+		"prefix": "expiration date",
+		"body": "\"expiration date\"",
+		"description": "(date) This item will expire on %s1."
+	},
+	"(+) Attribute: mod max primary clip override (303)": {
+		"prefix": "mod max primary clip override",
+		"body": "\"mod max primary clip override\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: sniper full charge damage bonus (304)": {
+		"prefix": "sniper full charge damage bonus",
+		"body": "\"sniper full charge damage bonus\"",
+		"description": "(percentage) On Full Charge: +%s1% damage per shot"
+	},
+	"(-) Attribute: sniper fires tracer (305)": {
+		"prefix": "sniper fires tracer",
+		"body": "\"sniper fires tracer\"",
+		"description": "(additive) Fires tracer rounds"
+	},
+	"(-) Attribute: sniper no headshot without full charge (306)": {
+		"prefix": "sniper no headshot without full charge",
+		"body": "\"sniper no headshot without full charge\"",
+		"description": "(additive) No headshots when not fully charged"
+	},
+	"(+) Attribute: mod no reload DISPLAY ONLY (307)": {
+		"prefix": "mod no reload DISPLAY ONLY",
+		"body": "\"mod no reload DISPLAY ONLY\"",
+		"description": "(additive) No reload necessary"
+	},
+	"(+) Attribute: sniper penetrate players when charged (308)": {
+		"prefix": "sniper penetrate players when charged",
+		"body": "\"sniper penetrate players when charged\"",
+		"description": "(additive) On Full Charge: Projectiles penetrate players"
+	},
+	"(+) Attribute: crit kill will gib (309)": {
+		"prefix": "crit kill will gib",
+		"body": "\"crit kill will gib\"",
+		"description": "(additive) Killing an enemy with a critical hit will dismember your victim. Painfully."
+	},
+	"(+) Attribute: recall (310)": {
+		"prefix": "recall",
+		"body": "\"recall\"",
+		"description": "(additive) Consumable: Instantly teleport to spawn"
+	},
+	"(+) Attribute: unlimited quantity (311)": {
+		"prefix": "unlimited quantity",
+		"body": "\"unlimited quantity\"",
+		"description": "(additive) Unlimited use"
+	},
+	"(+) Attribute: disable weapon hiding for animations (312)": {
+		"prefix": "disable weapon hiding for animations",
+		"body": "\"disable weapon hiding for animations\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: applies snare effect (313)": {
+		"prefix": "applies snare effect",
+		"body": "\"applies snare effect\"",
+		"description": "(percentage) %s1% movement speed on targets"
+	},
+	"(+) Attribute: uber duration bonus (314)": {
+		"prefix": "uber duration bonus",
+		"body": "\"uber duration bonus\"",
+		"description": "(additive) Über duration increased %s1 seconds"
+	},
+	"(+) Attribute: refill_ammo (315)": {
+		"prefix": "refill_ammo",
+		"body": "\"refill_ammo\"",
+		"description": "(additive) Consumable: Instantly refill all weapon clips and ammo"
+	},
+	"(=) Attribute: store sort override DEPRECATED (317)": {
+		"prefix": "store sort override DEPRECATED",
+		"body": "\"store sort override DEPRECATED\"",
+		"description": "(additive) Attrib_AlternateRocketEffect"
+	},
+	"(+) Attribute: faster reload rate (318)": {
+		"prefix": "faster reload rate",
+		"body": "\"faster reload rate\"",
+		"description": "(inverted_percentage) +%s1% faster reload time"
+	},
+	"(+) Attribute: increase buff duration (319)": {
+		"prefix": "increase buff duration",
+		"body": "\"increase buff duration\"",
+		"description": "(percentage) +%s1% buff duration"
+	},
+	"(+) Attribute: robo sapper (320)": {
+		"prefix": "robo sapper",
+		"body": "\"robo sapper\"",
+		"description": "(additive) Increased robot Sapper radius and duration"
+	},
+	"(+) Attribute: build rate bonus (321)": {
+		"prefix": "build rate bonus",
+		"body": "\"build rate bonus\"",
+		"description": "(inverted_percentage) +%s1% faster build speed"
+	},
+	"(=) Attribute: taunt is press and hold (322)": {
+		"prefix": "taunt is press and hold",
+		"body": "\"taunt is press and hold\"",
+		"description": "(additive) %s1% damage penalty"
+	},
+	"(+) Attribute: attack projectiles (323)": {
+		"prefix": "attack projectiles",
+		"body": "\"attack projectiles\"",
+		"description": "(additive) Bullets destroy rockets and grenades in-flight. Increased accuracy and frequency per-level."
+	},
+	"(+) Attribute: accuracy scales damage (324)": {
+		"prefix": "accuracy scales damage",
+		"body": "\"accuracy scales damage\"",
+		"description": "(percentage) Accuracy scales damage"
+	},
+	"(+) Attribute: currency bonus (325)": {
+		"prefix": "currency bonus",
+		"body": "\"currency bonus\"",
+		"description": "(percentage) +%s1% bonus currency from packs"
+	},
+	"(+) Attribute: increased jump height (326)": {
+		"prefix": "increased jump height",
+		"body": "\"increased jump height\"",
+		"description": "(percentage) +%s1% greater jump height when active"
+	},
+	"(+) Attribute: building instant upgrade (327)": {
+		"prefix": "building instant upgrade",
+		"body": "\"building instant upgrade\"",
+		"description": "(additive) Consumable: Instantly upgrade all buildings to max level"
+	},
+	"(=) Attribute: disable fancy class select anim (328)": {
+		"prefix": "disable fancy class select anim",
+		"body": "\"disable fancy class select anim\"",
+		"description": "(percentage)"
+	},
+	"(+) Attribute: airblast vulnerability multiplier (329)": {
+		"prefix": "airblast vulnerability multiplier",
+		"body": "\"airblast vulnerability multiplier\"",
+		"description": "(percentage) %s1% reduction in airblast vulnerability"
+	},
+	"(+) Attribute: override footstep sound set (330)": {
+		"prefix": "override footstep sound set",
+		"body": "\"override footstep sound set\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: spawn with physics toy (331)": {
+		"prefix": "spawn with physics toy",
+		"body": "\"spawn with physics toy\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: fish damage override (332)": {
+		"prefix": "fish damage override",
+		"body": "\"fish damage override\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: SET BONUS: special dsp (333)": {
+		"prefix": "SET BONUS: special dsp",
+		"body": "\"SET BONUS: special dsp\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: bombinomicon effect on death (334)": {
+		"prefix": "bombinomicon effect on death",
+		"body": "\"bombinomicon effect on death\"",
+		"description": "(additive) Explode spectacularly on death"
+	},
+	"(+) Attribute: clip size bonus upgrade (335)": {
+		"prefix": "clip size bonus upgrade",
+		"body": "\"clip size bonus upgrade\"",
+		"description": "(percentage) +%s1% clip size"
+	},
+	"(-) Attribute: hide enemy health (336)": {
+		"prefix": "hide enemy health",
+		"body": "\"hide enemy health\"",
+		"description": "(additive) Unable to see enemy health"
+	},
+	"(+) Attribute: subtract victim medigun charge on hit (337)": {
+		"prefix": "subtract victim medigun charge on hit",
+		"body": "\"subtract victim medigun charge on hit\"",
+		"description": "(additive) On Hit: Victim loses up to %s1% Medigun charge"
+	},
+	"(+) Attribute: subtract victim cloak on hit (338)": {
+		"prefix": "subtract victim cloak on hit",
+		"body": "\"subtract victim cloak on hit\"",
+		"description": "(additive) On Hit: Victim loses up to %s1% cloak"
+	},
+	"(+) Attribute: reveal cloaked victim on hit (339)": {
+		"prefix": "reveal cloaked victim on hit",
+		"body": "\"reveal cloaked victim on hit\"",
+		"description": "(additive) On Hit Spy: Reveal cloaked Spy"
+	},
+	"(+) Attribute: reveal disguised victim on hit (340)": {
+		"prefix": "reveal disguised victim on hit",
+		"body": "\"reveal disguised victim on hit\"",
+		"description": "(additive) On Hit Spy: Reveal disguised Spy"
+	},
+	"(+) Attribute: jarate backstabber (341)": {
+		"prefix": "jarate backstabber",
+		"body": "\"jarate backstabber\"",
+		"description": "(additive) When backstabbed: Jarate attacker"
+	},
+	"(+) Attribute: engy sentry fire rate increased (343)": {
+		"prefix": "engy sentry fire rate increased",
+		"body": "\"engy sentry fire rate increased\"",
+		"description": "(inverted_percentage) +%s1% sentry firing speed"
+	},
+	"(+) Attribute: engy sentry radius increased (344)": {
+		"prefix": "engy sentry radius increased",
+		"body": "\"engy sentry radius increased\"",
+		"description": "(percentage) +%s1% sentry range"
+	},
+	"(+) Attribute: engy dispenser radius increased (345)": {
+		"prefix": "engy dispenser radius increased",
+		"body": "\"engy dispenser radius increased\"",
+		"description": "(percentage) +%s1% dispenser range"
+	},
+	"(+) Attribute: mod bat launches ornaments (346)": {
+		"prefix": "mod bat launches ornaments",
+		"body": "\"mod bat launches ornaments\"",
+		"description": "(additive) Alt-Fire: Launches a festive ornament that shatters causing bleed"
+	},
+	"(-) Attribute: freeze backstab victim (347)": {
+		"prefix": "freeze backstab victim",
+		"body": "\"freeze backstab victim\"",
+		"description": "(additive) Backstab turns victim to ice"
+	},
+	"(-) Attribute: fire rate penalty HIDDEN (348)": {
+		"prefix": "fire rate penalty HIDDEN",
+		"body": "\"fire rate penalty HIDDEN\"",
+		"description": "(inverted_percentage)"
+	},
+	"(+) Attribute: energy weapon no drain (349)": {
+		"prefix": "energy weapon no drain",
+		"body": "\"energy weapon no drain\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: ragdolls become ash (350)": {
+		"prefix": "ragdolls become ash",
+		"body": "\"ragdolls become ash\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: engy disposable sentries (351)": {
+		"prefix": "engy disposable sentries",
+		"body": "\"engy disposable sentries\"",
+		"description": "(additive) Build +%s1 additional disposable-sentry"
+	},
+	"(+) Attribute: alt fire teleport to spawn (352)": {
+		"prefix": "alt fire teleport to spawn",
+		"body": "\"alt fire teleport to spawn\"",
+		"description": "(additive) Press your reload key to choose to teleport to spawn or your exit teleporter"
+	},
+	"(-) Attribute: cannot pick up buildings (353)": {
+		"prefix": "cannot pick up buildings",
+		"body": "\"cannot pick up buildings\"",
+		"description": "(additive) Cannot carry buildings"
+	},
+	"(+) Attribute: stun enemies wielding same weapon (354)": {
+		"prefix": "stun enemies wielding same weapon",
+		"body": "\"stun enemies wielding same weapon\"",
+		"description": "(additive) Stuns enemies who are also wielding this weapon"
+	},
+	"(-) Attribute: mod ammo per shot missed DISPLAY ONLY (355)": {
+		"prefix": "mod ammo per shot missed DISPLAY ONLY",
+		"body": "\"mod ammo per shot missed DISPLAY ONLY\"",
+		"description": "(additive) Per Shot Missed: -%s1 ammo"
+	},
+	"(-) Attribute: airblast disabled (356)": {
+		"prefix": "airblast disabled",
+		"body": "\"airblast disabled\"",
+		"description": "(additive) No airblast"
+	},
+	"(+) Attribute: increase buff duration HIDDEN (357)": {
+		"prefix": "increase buff duration HIDDEN",
+		"body": "\"increase buff duration HIDDEN\"",
+		"description": "(percentage) +%s1% buff duration"
+	},
+	"(+) Attribute: crit forces victim to laugh (358)": {
+		"prefix": "crit forces victim to laugh",
+		"body": "\"crit forces victim to laugh\"",
+		"description": "(additive) Critical hit forces victim to laugh"
+	},
+	"(-) Attribute: melts in fire (359)": {
+		"prefix": "melts in fire",
+		"body": "\"melts in fire\"",
+		"description": "(additive) Melts in fire, regenerates in %s1 seconds and by picking up ammo"
+	},
+	"(+) Attribute: damage all connected (360)": {
+		"prefix": "damage all connected",
+		"body": "\"damage all connected\"",
+		"description": "(additive) All players connected via Medigun beams are hit"
+	},
+	"(+) Attribute: become fireproof on hit by fire (361)": {
+		"prefix": "become fireproof on hit by fire",
+		"body": "\"become fireproof on hit by fire\"",
+		"description": "(additive) On Hit by Fire: Fireproof for 1 second and Afterburn immunity for %s1 seconds"
+	},
+	"(+) Attribute: crit from behind (362)": {
+		"prefix": "crit from behind",
+		"body": "\"crit from behind\"",
+		"description": "(additive) Always critical hit from behind"
+	},
+	"(-) Attribute: crit does no damage (363)": {
+		"prefix": "crit does no damage",
+		"body": "\"crit does no damage\"",
+		"description": "(additive) Critical hits do no damage"
+	},
+	"(-) Attribute: add jingle to footsteps (364)": {
+		"prefix": "add jingle to footsteps",
+		"body": "\"add jingle to footsteps\"",
+		"description": "(additive) Jingle all the way"
+	},
+	"(-) Attribute: set icicle knife mode (365)": {
+		"prefix": "set icicle knife mode",
+		"body": "\"set icicle knife mode\"",
+		"description": "(additive) Attrib_SetIcicleKnifeMode"
+	},
+	"(+) Attribute: mod stun waist high airborne (366)": {
+		"prefix": "mod stun waist high airborne",
+		"body": "\"mod stun waist high airborne\"",
+		"description": "(additive) On Hit: If enemy's belt is at or above eye level, stun them for %s1 seconds"
+	},
+	"(+) Attribute: extinguish earns revenge crits (367)": {
+		"prefix": "extinguish earns revenge crits",
+		"body": "\"extinguish earns revenge crits\"",
+		"description": "(additive) Alt-Fire: Extinguish teammates to gain guaranteed critical hits"
+	},
+	"(+) Attribute: burn damage earns rage (368)": {
+		"prefix": "burn damage earns rage",
+		"body": "\"burn damage earns rage\"",
+		"description": "(additive) Build 'Mmmph' by dealing damage. Alt-Fire on full 'Mmmph': Taunt to gain crits for several seconds. Invulnerable while 'Mmmph' taunting."
+	},
+	"(+) Attribute: tickle enemies wielding same weapon (369)": {
+		"prefix": "tickle enemies wielding same weapon",
+		"body": "\"tickle enemies wielding same weapon\"",
+		"description": "(additive) On Hit: Force enemies to laugh who are also wearing this item"
+	},
+	"(=) Attribute: attach particle effect static (370)": {
+		"prefix": "attach particle effect static",
+		"body": "\"attach particle effect static\"",
+		"description": "(particle_index)"
+	},
+	"(+) Attribute: cosmetic taunt sound (371)": {
+		"prefix": "cosmetic taunt sound",
+		"body": "\"cosmetic taunt sound\"",
+		"description": "(additive) Attrib_TauntSoundSuccess"
+	},
+	"(+) Attribute: accepted wedding ring account id 1 (372)": {
+		"prefix": "accepted wedding ring account id 1",
+		"body": "\"accepted wedding ring account id 1\"",
+		"description": "(account_id) A perpetual bond of commitment between %s1"
+	},
+	"(+) Attribute: accepted wedding ring account id 2 (373)": {
+		"prefix": "accepted wedding ring account id 2",
+		"body": "\"accepted wedding ring account id 2\"",
+		"description": "(account_id) and %s1, forever and ever and ever. XoXoX"
+	},
+	"(-) Attribute: tool escrow until date (374)": {
+		"prefix": "tool escrow until date",
+		"body": "\"tool escrow until date\"",
+		"description": "(date) Usable After: %s1"
+	},
+	"(+) Attribute: generate rage on damage (375)": {
+		"prefix": "generate rage on damage",
+		"body": "\"generate rage on damage\"",
+		"description": "(additive) Generate Rage by dealing damage. When fully charged, press the Special-Attack key to activate knockback"
+	},
+	"(+) Attribute: aiming no flinch (376)": {
+		"prefix": "aiming no flinch",
+		"body": "\"aiming no flinch\"",
+		"description": "(additive) No flinching when aiming and fully charged"
+	},
+	"(+) Attribute: aiming knockback resistance (377)": {
+		"prefix": "aiming knockback resistance",
+		"body": "\"aiming knockback resistance\"",
+		"description": "(inverted_percentage) Knockback reduced by %s1% when aiming"
+	},
+	"(-) Attribute: sniper aiming movespeed decreased (378)": {
+		"prefix": "sniper aiming movespeed decreased",
+		"body": "\"sniper aiming movespeed decreased\"",
+		"description": "(percentage) %s1% slower move speed when aiming"
+	},
+	"(+) Attribute: kill eater user 1 (379)": {
+		"prefix": "kill eater user 1",
+		"body": "\"kill eater user 1\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: kill eater user score type 1 (380)": {
+		"prefix": "kill eater user score type 1",
+		"body": "\"kill eater user score type 1\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: kill eater user 2 (381)": {
+		"prefix": "kill eater user 2",
+		"body": "\"kill eater user 2\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: kill eater user score type 2 (382)": {
+		"prefix": "kill eater user score type 2",
+		"body": "\"kill eater user score type 2\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: kill eater user 3 (383)": {
+		"prefix": "kill eater user 3",
+		"body": "\"kill eater user 3\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: kill eater user score type 3 (384)": {
+		"prefix": "kill eater user score type 3",
+		"body": "\"kill eater user score type 3\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: strange part new counter ID (385)": {
+		"prefix": "strange part new counter ID",
+		"body": "\"strange part new counter ID\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: mvm completed challenges bitmask (386)": {
+		"prefix": "mvm completed challenges bitmask",
+		"body": "\"mvm completed challenges bitmask\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: rage on kill (387)": {
+		"prefix": "rage on kill",
+		"body": "\"rage on kill\"",
+		"description": "(additive) Gain Focus on kills and assists"
+	},
+	"(+) Attribute: kill eater kill type (388)": {
+		"prefix": "kill eater kill type",
+		"body": "\"kill eater kill type\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: shot penetrate all players (389)": {
+		"prefix": "shot penetrate all players",
+		"body": "\"shot penetrate all players\"",
+		"description": "(additive) Shots go through multiple enemies"
+	},
+	"(+) Attribute: headshot damage increase (390)": {
+		"prefix": "headshot damage increase",
+		"body": "\"headshot damage increase\"",
+		"description": "(percentage) Headshots deal an extra +%s1% damage"
+	},
+	"(+) Attribute: SET BONUS: mystery solving time decrease (391)": {
+		"prefix": "SET BONUS: mystery solving time decrease",
+		"body": "\"SET BONUS: mystery solving time decrease\"",
+		"description": "(percentage) Reduces mystery solving time by up to %s1%"
+	},
+	"(-) Attribute: damage penalty on bodyshot (392)": {
+		"prefix": "damage penalty on bodyshot",
+		"body": "\"damage penalty on bodyshot\"",
+		"description": "(percentage) %s1% damage on body shot"
+	},
+	"(+) Attribute: sniper rage DISPLAY ONLY (393)": {
+		"prefix": "sniper rage DISPLAY ONLY",
+		"body": "\"sniper rage DISPLAY ONLY\"",
+		"description": "(additive) Press 'Reload' to activate focus. In Focus: +25% faster charge and no unscoping"
+	},
+	"(+) Attribute: fire rate bonus HIDDEN (394)": {
+		"prefix": "fire rate bonus HIDDEN",
+		"body": "\"fire rate bonus HIDDEN\"",
+		"description": "(inverted_percentage) +%s1% faster firing speed"
+	},
+	"(+) Attribute: explosive sniper shot (395)": {
+		"prefix": "explosive sniper shot",
+		"body": "\"explosive sniper shot\"",
+		"description": "(additive) Increased headshot explosion radius and damage to nearby enemies"
+	},
+	"(+) Attribute: melee attack rate bonus (396)": {
+		"prefix": "melee attack rate bonus",
+		"body": "\"melee attack rate bonus\"",
+		"description": "(inverted_percentage) +%s1% faster melee attack speed"
+	},
+	"(+) Attribute: projectile penetration heavy (397)": {
+		"prefix": "projectile penetration heavy",
+		"body": "\"projectile penetration heavy\"",
+		"description": "(additive) Bullets penetrate +%s1 enemies"
+	},
+	"(+) Attribute: rage on assists (398)": {
+		"prefix": "rage on assists",
+		"body": "\"rage on assists\"",
+		"description": "(additive) Attrib_RageGainOnAssists"
+	},
+	"(+) Attribute: armor piercing (399)": {
+		"prefix": "armor piercing",
+		"body": "\"armor piercing\"",
+		"description": "(additive) Increase backstab damage against Giant Robots by %s1%"
+	},
+	"(-) Attribute: cannot pick up intelligence (400)": {
+		"prefix": "cannot pick up intelligence",
+		"body": "\"cannot pick up intelligence\"",
+		"description": "(additive) Wearer cannot carry the intelligence briefcase or PASS Time JACK"
+	},
+	"(+) Attribute: SET BONUS: chance of hunger decrease (401)": {
+		"prefix": "SET BONUS: chance of hunger decrease",
+		"body": "\"SET BONUS: chance of hunger decrease\"",
+		"description": "(percentage) Reduces chance of hunger by up to %s1%"
+	},
+	"(+) Attribute: cannot be backstabbed (402)": {
+		"prefix": "cannot be backstabbed",
+		"body": "\"cannot be backstabbed\"",
+		"description": "(additive) Cannot be backstabbed"
+	},
+	"(+) Attribute: squad surplus claimer id DEPRECATED (403)": {
+		"prefix": "squad surplus claimer id DEPRECATED",
+		"body": "\"squad surplus claimer id DEPRECATED\"",
+		"description": "(account_id) Squad surplus claimed by: %s1"
+	},
+	"(+) Attribute: share consumable with patient (404)": {
+		"prefix": "share consumable with patient",
+		"body": "\"share consumable with patient\"",
+		"description": "(additive) Using your Power Up Canteen will apply the same bonus effect to your heal target"
+	},
+	"(+) Attribute: airblast vertical vulnerability multiplier (405)": {
+		"prefix": "airblast vertical vulnerability multiplier",
+		"body": "\"airblast vertical vulnerability multiplier\"",
+		"description": "(percentage) Attrib_AirBlastVerticalVulnerabilityMultipier"
+	},
+	"(+) Attribute: vision opt in flags (406)": {
+		"prefix": "vision opt in flags",
+		"body": "\"vision opt in flags\"",
+		"description": "(or)"
+	},
+	"(+) Attribute: crit vs disguised players (407)": {
+		"prefix": "crit vs disguised players",
+		"body": "\"crit vs disguised players\"",
+		"description": "(or) 100% critical hit vs disguised players"
+	},
+	"(+) Attribute: crit vs non burning players (408)": {
+		"prefix": "crit vs non burning players",
+		"body": "\"crit vs non burning players\"",
+		"description": "(or) 100% critical hit vs non-burning players"
+	},
+	"(+) Attribute: kill forces attacker to laugh (409)": {
+		"prefix": "kill forces attacker to laugh",
+		"body": "\"kill forces attacker to laugh\"",
+		"description": "(additive) On Kill: Burst into joyous laughter"
+	},
+	"(+) Attribute: damage bonus while disguised (410)": {
+		"prefix": "damage bonus while disguised",
+		"body": "\"damage bonus while disguised\"",
+		"description": "(percentage) +%s1% damage bonus while disguised"
+	},
+	"(-) Attribute: projectile spread angle penalty (411)": {
+		"prefix": "projectile spread angle penalty",
+		"body": "\"projectile spread angle penalty\"",
+		"description": "(additive) +%s1 degrees random projectile deviation"
+	},
+	"(-) Attribute: dmg taken increased (412)": {
+		"prefix": "dmg taken increased",
+		"body": "\"dmg taken increased\"",
+		"description": "(percentage) %s1% damage vulnerability on wearer"
+	},
+	"(+) Attribute: auto fires full clip (413)": {
+		"prefix": "auto fires full clip",
+		"body": "\"auto fires full clip\"",
+		"description": "(additive) Hold Fire to load up to three rockets. Release Fire to unleash the barrage"
+	},
+	"(-) Attribute: self mark for death (414)": {
+		"prefix": "self mark for death",
+		"body": "\"self mark for death\"",
+		"description": "(additive) You are Marked-For-Death while active, and for short period after switching weapons"
+	},
+	"(+) Attribute: counts as assister is some kind of pet this update is going to be awesome (415)": {
+		"prefix": "counts as assister is some kind of pet this update is going to be awesome",
+		"body": "\"counts as assister is some kind of pet this update is going to be awesome\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: mod flaregun fires pellets with knockback (416)": {
+		"prefix": "mod flaregun fires pellets with knockback",
+		"body": "\"mod flaregun fires pellets with knockback\"",
+		"description": "(additive) Flare knocks back target on hit and explodes when it hits the ground. Increased knock back on burning players"
+	},
+	"(-) Attribute: can overload (417)": {
+		"prefix": "can overload",
+		"body": "\"can overload\"",
+		"description": "(additive) Overloading the chamber will cause a misfire"
+	},
+	"(+) Attribute: boost on damage (418)": {
+		"prefix": "boost on damage",
+		"body": "\"boost on damage\"",
+		"description": "(additive) On Hit: Builds Boost. Run speed increased with Boostg"
+	},
+	"(-) Attribute: hype resets on jump (419)": {
+		"prefix": "hype resets on jump",
+		"body": "\"hype resets on jump\"",
+		"description": "(additive) Boost reduced on air jumps"
+	},
+	"(+) Attribute: pyro year number (420)": {
+		"prefix": "pyro year number",
+		"body": "\"pyro year number\"",
+		"description": "(additive) Witnessed the %s1 inferno"
+	},
+	"(-) Attribute: no primary ammo from dispensers while active (421)": {
+		"prefix": "no primary ammo from dispensers while active",
+		"body": "\"no primary ammo from dispensers while active\"",
+		"description": "(additive) No ammo from dispensers when active"
+	},
+	"(-) Attribute: pyrovision only DISPLAY ONLY (422)": {
+		"prefix": "pyrovision only DISPLAY ONLY",
+		"body": "\"pyrovision only DISPLAY ONLY\"",
+		"description": "(additive) Only visible in Pyroland"
+	},
+	"(-) Attribute: clip size penalty HIDDEN (424)": {
+		"prefix": "pyrovision only DISPLAY ONLY",
+		"body": "\"pyrovision only DISPLAY ONLY\"",
+		"description": "(percentage) %s1% clip size"
+	},
+	"(+) Attribute: sapper damage bonus (425)": {
+		"prefix": "sapper damage bonus",
+		"body": "\"sapper damage bonus\"",
+		"description": "(percentage) +%s1% sapper damage bonus"
+	},
+	"(-) Attribute: sapper damage penalty (426)": {
+		"prefix": "sapper damage penalty",
+		"body": "\"sapper damage penalty\"",
+		"description": "(percentage) %s1% sapper damage penalty"
+	},
+	"(+) Attribute: sapper damage leaches health (427)": {
+		"prefix": "sapper damage leaches health",
+		"body": "\"sapper damage leaches health\"",
+		"description": "(additive) +%s1 health regenerated per second for each active sapper"
+	},
+	"(+) Attribute: sapper health bonus (428)": {
+		"prefix": "sapper health bonus",
+		"body": "\"sapper health bonus\"",
+		"description": "(percentage) %s1% sapper health bonus"
+	},
+	"(-) Attribute: sapper health penalty (429)": {
+		"prefix": "sapper health penalty",
+		"body": "\"sapper health penalty\"",
+		"description": "(percentage) %s1% sapper health penalty"
+	},
+	"(+) Attribute: ring of fire while aiming (430)": {
+		"prefix": "ring of fire while aiming",
+		"body": "\"ring of fire while aiming\"",
+		"description": "(additive) Creates a ring of flames while spun up"
+	},
+	"(-) Attribute: uses ammo while aiming (431)": {
+		"prefix": "uses ammo while aiming",
+		"body": "\"uses ammo while aiming\"",
+		"description": "(additive) Consumes an additional %s1 ammo per second while spun up"
+	},
+	"(+) Attribute: sapper degenerates buildings (433)": {
+		"prefix": "sapper degenerates buildings",
+		"body": "\"sapper degenerates buildings\"",
+		"description": "(additive) Reverses enemy building construction"
+	},
+	"(-) Attribute: sapper damage penalty hidden (434)": {
+		"prefix": "sapper damage penalty hidden",
+		"body": "\"sapper damage penalty hidden\"",
+		"description": "(percentage) %s1% sapper damage penalty"
+	},
+	"(+) Attribute: cleaver description (435)": {
+		"prefix": "cleaver description",
+		"body": "\"cleaver description\"",
+		"description": "(percentage) Throw at your enemies to make them bleed! Long distance hits reduce recharge time"
+	},
+	"(+) Attribute: ragdolls plasma effect (436)": {
+		"prefix": "ragdolls plasma effect",
+		"body": "\"ragdolls plasma effect\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: crit vs stunned players (437)": {
+		"prefix": "crit vs stunned players",
+		"body": "\"crit vs stunned players\"",
+		"description": "(or) 100% critical hit vs stunned players"
+	},
+	"(+) Attribute: crit vs wet players (438)": {
+		"prefix": "crit vs wet players",
+		"body": "\"crit vs wet players\"",
+		"description": "(or) 100% critical hit vs wet players"
+	},
+	"(+) Attribute: override item level desc string (439)": {
+		"prefix": "override item level desc string",
+		"body": "\"override item level desc string\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: clip size upgrade atomic (440)": {
+		"prefix": "clip size upgrade atomic",
+		"body": "\"clip size upgrade atomic\"",
+		"description": "(additive) +%s1 clip size"
+	},
+	"(+) Attribute: auto fires full clip all at once (441)": {
+		"prefix": "auto fires full clip all at once",
+		"body": "\"auto fires full clip all at once\"",
+		"description": "(additive) Attrib_AutoFiresFullClipAllAtOnce"
+	},
+	"(+) Attribute: major move speed bonus (442)": {
+		"prefix": "major move speed bonus",
+		"body": "\"major move speed bonus\"",
+		"description": "(percentage)"
+	},
+	"(+) Attribute: major increased jump height (443)": {
+		"prefix": "major increased jump height",
+		"body": "\"major increased jump height\"",
+		"description": "(percentage)"
+	},
+	"(-) Attribute: head scale (444)": {
+		"prefix": "head scale",
+		"body": "\"head scale\"",
+		"description": "(percentage) Disables double jump"
+	},
+	"(+) Attribute: pyrovision opt in DISPLAY ONLY (445)": {
+		"prefix": "pyrovision opt in DISPLAY ONLY",
+		"body": "\"pyrovision opt in DISPLAY ONLY\"",
+		"description": "(or) On Equip: Visit Pyroland"
+	},
+	"(+) Attribute: halloweenvision opt in DISPLAY ONLY (446)": {
+		"prefix": "halloweenvision opt in DISPLAY ONLY",
+		"body": "\"halloweenvision opt in DISPLAY ONLY\"",
+		"description": "(or)"
+	},
+	"(-) Attribute: halloweenvision filter DISPLAY ONLY (447)": {
+		"prefix": "halloweenvision filter DISPLAY ONLY",
+		"body": "\"halloweenvision filter DISPLAY ONLY\"",
+		"description": "(or)"
+	},
+	"(+) Attribute: player skin override (448)": {
+		"prefix": "player skin override",
+		"body": "\"player skin override\"",
+		"description": "(additive) Attrib_PlayerSkinOverride"
+	},
+	"(=) Attribute: never craftable (449)": {
+		"prefix": "never craftable",
+		"body": "\"never craftable\"",
+		"description": "(additive)"
+	},
+	"(=) Attribute: zombiezombiezombiezombie (450)": {
+		"prefix": "zombiezombiezombiezombie",
+		"body": "\"zombiezombiezombiezombie\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: sapper voice pak (451)": {
+		"prefix": "sapper voice pak",
+		"body": "\"sapper voice pak\"",
+		"description": "(additive) Attrib_Sapper_Voice_Pak"
+	},
+	"(+) Attribute: sapper voice pak idle wait (452)": {
+		"prefix": "sapper voice pak idle wait",
+		"body": "\"sapper voice pak idle wait\"",
+		"description": "(additive) Attrib_Sapper_Voice_Pak_Idle_Wait"
+	},
+	"(+) Attribute: merasmus hat level display ONLY (453)": {
+		"prefix": "merasmus hat level display ONLY",
+		"body": "\"merasmus hat level display ONLY\"",
+		"description": "(additive) Killed Merasmus at level %s1"
+	},
+	"(+) Attribute: strange restriction type 1 (454)": {
+		"prefix": "strange restriction type 1",
+		"body": "\"strange restriction type 1\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: strange restriction value 1 (455)": {
+		"prefix": "strange restriction value 1",
+		"body": "\"strange restriction value 1\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: strange restriction type 2 (456)": {
+		"prefix": "strange restriction type 2",
+		"body": "\"strange restriction type 2\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: strange restriction value 2 (457)": {
+		"prefix": "strange restriction value 2",
+		"body": "\"strange restriction value 2\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: strange restriction user type 1 (458)": {
+		"prefix": "strange restriction user type 1",
+		"body": "\"strange restriction user type 1\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: strange restriction user value 1 (459)": {
+		"prefix": "strange restriction user value 1",
+		"body": "\"strange restriction user value 1\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: strange restriction user type 2 (460)": {
+		"prefix": "strange restriction user type 2",
+		"body": "\"strange restriction user type 2\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: strange restriction user value 2 (461)": {
+		"prefix": "strange restriction user value 2",
+		"body": "\"strange restriction user value 2\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: strange restriction user type 3 (462)": {
+		"prefix": "strange restriction user type 3",
+		"body": "\"strange restriction user type 3\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: strange restriction user value 3 (463)": {
+		"prefix": "strange restriction user value 3",
+		"body": "\"strange restriction user value 3\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: engineer sentry build rate multiplier (464)": {
+		"prefix": "engineer sentry build rate multiplier",
+		"body": "\"engineer sentry build rate multiplier\"",
+		"description": "(percentage) Sentry build speed increased by %s1%"
+	},
+	"(+) Attribute: engineer teleporter build rate multiplier (465)": {
+		"prefix": "engineer teleporter build rate multiplier",
+		"body": "\"engineer teleporter build rate multiplier\"",
+		"description": "(percentage) Increases teleporter build speed by %s1%."
+	},
+	"(=) Attribute: grenade launcher mortar mode (466)": {
+		"prefix": "grenade launcher mortar mode",
+		"body": "\"grenade launcher mortar mode\"",
+		"description": "(additive) Cannonballs have a fuse time of 1 second; fuses can be primed to explode earlier by holding down the fire key."
+	},
+	"(-) Attribute: grenade not explode on impact (467)": {
+		"prefix": "grenade not explode on impact",
+		"body": "\"grenade not explode on impact\"",
+		"description": "(additive) Cannonballs do not explode on impact"
+	},
+	"(+) Attribute: strange score selector (468)": {
+		"prefix": "strange score selector",
+		"body": "\"strange score selector\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: engineer building teleporting pickup (469)": {
+		"prefix": "engineer building teleporting pickup",
+		"body": "\"engineer building teleporting pickup\"",
+		"description": "(additive) Alt-Fire: Use %s1 metal to pick up your targeted building from long range"
+	},
+	"(-) Attribute: grenade damage reduction on world contact (470)": {
+		"prefix": "grenade damage reduction on world contact",
+		"body": "\"grenade damage reduction on world contact\"",
+		"description": "(percentage) %s1% damage on contact with surfaces"
+	},
+	"(+) Attribute: engineer rage on dmg (471)": {
+		"prefix": "engineer rage on dmg",
+		"body": "\"engineer rage on dmg\"",
+		"description": "(additive) Generate building rescue energy on damage"
+	},
+	"(-) Attribute: mark for death on building pickup (472)": {
+		"prefix": "mark for death on building pickup",
+		"body": "\"mark for death on building pickup\"",
+		"description": "(additive) Self mark for death when hauling buildings"
+	},
+	"(+) Attribute: medigun charge is resists (473)": {
+		"prefix": "medigun charge is resists",
+		"body": "\"medigun charge is resists\"",
+		"description": "(additive) Press your reload key to cycle through resist types. While healing, provides you and your target with a constant 10% resistance to the selected damage type."
+	},
+	"(+) Attribute: arrow heals buildings (474)": {
+		"prefix": "arrow heals buildings",
+		"body": "\"arrow heals buildings\"",
+		"description": "(additive) Fires a special bolt that can repair friendly buildings"
+	},		
+	"(+) Attribute: Projectile speed increased HIDDEN (475)": {
+		"prefix": "Projectile speed increased HIDDEN",
+		"body": "\"Projectile speed increased HIDDEN\"",
+		"description": "(percentage) +%s1% projectile speed"
+	},		
+	"(+) Attribute: damage bonus HIDDEN (476)": {
+		"prefix": "damage bonus HIDDEN",
+		"body": "\"damage bonus HIDDEN\"",
+		"description": "(percentage) +%s1% damage bonus"
+	},
+	"(+) Attribute: cannonball push back (477)": {
+		"prefix": "cannonball push back",
+		"body": "\"cannonball push back\"",
+		"description": "(additive) Cannonballs push players back on impact"
+	},
+	"(+) Attribute: rage giving scale (478)": {
+		"prefix": "rage giving scale",
+		"body": "\"rage giving scale\"",
+		"description": "(percentage)"
+	},
+	"(-) Attribute: overheal fill rate reduced (479)": {
+		"prefix": "overheal fill rate reduced",
+		"body": "\"overheal fill rate reduced\"",
+		"description": "(percentage) %s1% Overheal build rate."
+	},
+	"(+) Attribute: canteen specialist (481)": {
+		"prefix": "canteen specialist",
+		"body": "\"canteen specialist\"",
+		"description": "(additive) Share Canteens with your heal target. +1 duration, -10 price per point (minimum cost: 5)"
+	},
+	"(+) Attribute: overheal expert (482)": {
+		"prefix": "overheal expert",
+		"body": "\"overheal expert\"",
+		"description": "(additive) +25% more overheal, +50% longer duration per point"
+	},
+	"(+) Attribute: mad milk syringes (484)": {
+		"prefix": "mad milk syringes",
+		"body": "\"mad milk syringes\"",
+		"description": "(additive) Syringes deliver a highly concentrated dose of Mad Milk. Duration increases per hit to a max of 4 seconds."
+	},
+	"(+) Attribute: rocket specialist (488)": {
+		"prefix": "rocket specialist",
+		"body": "\"rocket specialist\"",
+		"description": "(additive) +15% rocket speed per point. On direct hits: rocket does maximum damage, stuns target, and blast radius increased +15% per point."
+	},
+	"(+) Attribute: SET BONUS: move speed set bonus (489)": {
+		"prefix": "SET BONUS: move speed set bonus",
+		"body": "\"SET BONUS: move speed set bonus\"",
+		"description": "(percentage) +%s1% faster move speed on wearer"
+	},
+	"(+) Attribute: SET BONUS: health regen set bonus (490)": {
+		"prefix": "SET BONUS: health regen set bonus",
+		"body": "\"SET BONUS: health regen set bonus\"",
+		"description": "(additive) +%s1 health regenerated per second on wearer"
+	},
+	"(+) Attribute: SET BONUS: dmg taken from crit reduced set bonus (491)": {
+		"prefix": "SET BONUS: dmg taken from crit reduced set bonus",
+		"body": "\"SET BONUS: dmg taken from crit reduced set bonus\"",
+		"description": "(inverted_percentage) +%s1% critical hit damage resistance on wearer"
+	},
+	"(+) Attribute: SET BONUS: dmg taken from fire reduced set bonus (492)": {
+		"prefix": "SET BONUS: dmg taken from fire reduced set bonus",
+		"body": "\"SET BONUS: dmg taken from fire reduced set bonus\"",
+		"description": "(inverted_percentage) +%s1% fire damage resistance on wearer"
+	},
+	"(+) Attribute: healing mastery (493)": {
+		"prefix": "healing mastery",
+		"body": "\"healing mastery\"",
+		"description": "(additive) +25% heal rate for patient, +25% faster revive rate, and +25% self heal rate, per point"
+	},
+	"(+) Attribute: kill eater 3 (494)": {
+		"prefix": "kill eater 3",
+		"body": "\"kill eater 3\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: kill eater score type 3 (495)": {
+		"prefix": "kill eater score type 3",
+		"body": "\"kill eater score type 3\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: strange restriction type 3 (496)": {
+		"prefix": "strange restriction type 3",
+		"body": "\"strange restriction type 3\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: strange restriction value 3 (497)": {
+		"prefix": "strange restriction value 3",
+		"body": "\"strange restriction value 3\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: bot custom jump particle (498)": {
+		"prefix": "bot custom jump particle",
+		"body": "\"bot custom jump particle\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: generate rage on heal (499)": {
+		"prefix": "generate rage on heal",
+		"body": "\"generate rage on heal\"",
+		"description": "(additive) Build energy by healing teammates. When fully charged, press the Special-Attack key to deploy a frontal projectile shield."
+	},
+	"(+) Attribute: custom name attr (500)": {
+		"prefix": "custom name attr",
+		"body": "\"custom name attr\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: custom desc attr (501)": {
+		"prefix": "custom desc attr",
+		"body": "\"custom desc attr\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: medigun bullet resist passive (503)": {
+		"prefix": "medigun bullet resist passive",
+		"body": "\"medigun bullet resist passive\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: medigun blast resist passive (504)": {
+		"prefix": "medigun blast resist passive",
+		"body": "\"medigun blast resist passive\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: medigun fire resist passive (505)": {
+		"prefix": "medigun fire resist passive",
+		"body": "\"medigun fire resist passive\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: medigun bullet resist deployed (506)": {
+		"prefix": "medigun bullet resist deployed",
+		"body": "\"medigun bullet resist deployed\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: medigun blast resist deployed (507)": {
+		"prefix": "medigun blast resist deployed",
+		"body": "\"medigun blast resist deployed\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: medigun fire resist deployed (508)": {
+		"prefix": "medigun fire resist deployed",
+		"body": "\"medigun fire resist deployed\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: medigun crit bullet percent bar deplete (509)": {
+		"prefix": "medigun crit bullet percent bar deplete",
+		"body": "\"medigun crit bullet percent bar deplete\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: medigun crit blast percent bar deplete (510)": {
+		"prefix": "medigun crit blast percent bar deplete",
+		"body": "\"medigun crit blast percent bar deplete\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: medigun crit fire percent bar deplete (511)": {
+		"prefix": "medigun crit fire percent bar deplete",
+		"body": "\"medigun crit fire percent bar deplete\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: throwable fire speed (512)": {
+		"prefix": "throwable fire speed",
+		"body": "\"throwable fire speed\"",
+		"description": "(percentage)"
+	},
+	"(+) Attribute: throwable damage (513)": {
+		"prefix": "throwable damage",
+		"body": "\"throwable damage\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: throwable healing (514)": {
+		"prefix": "throwable healing",
+		"body": "\"throwable healing\"",
+		"description": "(additive)"
+	},
+	"(=) Attribute: throwable particle trail only (515)": {
+		"prefix": "throwable particle trail only",
+		"body": "\"throwable particle trail only\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: SET BONUS: dmg taken from bullets increased (516)": {
+		"prefix": "SET BONUS: dmg taken from bullets increased",
+		"body": "\"SET BONUS: dmg taken from bullets increased\"",
+		"description": "(percentage) %s1% bullet damage vulnerability on wearer"
+	},
+	"(+) Attribute: SET BONUS: max health additive bonus (517)": {
+		"prefix": "SET BONUS: max health additive bonus",
+		"body": "\"SET BONUS: max health additive bonus\"",
+		"description": "(additive) +%s1 max health on wearer"
+	},
+	"(+) Attribute: scattergun knockback mult (518)": {
+		"prefix": "scattergun knockback mult",
+		"body": "\"scattergun knockback mult\"",
+		"description": "(percentage)"
+	},
+	"(+) Attribute: particle effect vertical offset (519)": {
+		"prefix": "particle effect vertical offset",
+		"body": "\"particle effect vertical offset\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: particle effect use head origin (520)": {
+		"prefix": "particle effect use head origin",
+		"body": "\"particle effect use head origin\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: use large smoke explosion (521)": {
+		"prefix": "use large smoke explosion",
+		"body": "\"use large smoke explosion\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: damage causes airblast (522)": {
+		"prefix": "damage causes airblast",
+		"body": "\"damage causes airblast\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: increased jump height from weapon (524)": {
+		"prefix": "increased jump height from weapon",
+		"body": "\"increased jump height from weapon\"",
+		"description": "(percentage) +%s1% greater jump height when active"
+	},
+	"(-) Attribute: damage force increase (525)": {
+		"prefix": "damage force increase",
+		"body": "\"damage force increase\"",
+		"description": "(percentage) %s1% increase in push force taken from damage"
+	},
+	"(+) Attribute: healing received bonus (526)": {
+		"prefix": "healing received bonus",
+		"body": "\"healing received bonus\"",
+		"description": "(percentage) +%s1% bonus healing from all sources"
+	},
+	"(+) Attribute: afterburn immunity (527)": {
+		"prefix": "afterburn immunity",
+		"body": "\"afterburn immunity\"",
+		"description": "(additive) Immune to the effects of afterburn."
+	},
+	"(+) Attribute: decoded by itemdefindex (528)": {
+		"prefix": "decoded by itemdefindex",
+		"body": "\"decoded by itemdefindex\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: hype decays over time (532)": {
+		"prefix": "hype decays over time",
+		"body": "\"hype decays over time\"",
+		"description": "(additive) Hype Decays Over Time."
+	},
+	"(+) Attribute: SET BONUS: custom taunt particle attr (533)": {
+		"prefix": "SET BONUS: custom taunt particle attr",
+		"body": "\"SET BONUS: custom taunt particle attr\"",
+		"description": "(additive) Extra effects when taunting."
+	},
+	"(-) Attribute: airblast vulnerability multiplier hidden (534)": {
+		"prefix": "airblast vulnerability multiplier hidden",
+		"body": "\"airblast vulnerability multiplier hidden\"",
+		"description": "(percentage) %s1% reduction in airblast vulnerability"
+	},
+	"(-) Attribute: damage force increase hidden (535)": {
+		"prefix": "damage force increase hidden",
+		"body": "\"damage force increase hidden\"",
+		"description": "(percentage) %s1% increase in push force taken from damage"
+	},
+	"(-) Attribute: damage force increase text (536)": {
+		"prefix": "damage force increase text",
+		"body": "\"damage force increase text\"",
+		"description": "(percentage) Increase in push force taken from damage and airblast"
+	},
+	"(+) Attribute: SET BONUS: calling card on kill (537)": {
+		"prefix": "SET BONUS: calling card on kill",
+		"body": "\"SET BONUS: calling card on kill\"",
+		"description": "(additive) Leave a Calling Card on your victims."
+	},
+	"(?) Attribute: righthand pose parameter (538)": {
+		"prefix": "righthand pose parameter",
+		"body": "\"righthand pose parameter\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: set throwable type (539)": {
+		"prefix": "set throwable type",
+		"body": "\"set throwable type\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: add head on hit (540)": {
+		"prefix": "add head on hit",
+		"body": "\"add head on hit\"",
+		"description": "(additive_percentage) Attrib_AddHeadOnHit"
+	},
+	"(?) Attribute: item style override (542)": {
+		"prefix": "item style override",
+		"body": "\"item style override\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: paint decal enum (543)": {
+		"prefix": "paint decal enum",
+		"body": "\"paint decal enum\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: show paint description (544)": {
+		"prefix": "show paint description",
+		"body": "\"show paint description\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: bot medic uber health threshold (545)": {
+		"prefix": "bot medic uber health threshold",
+		"body": "\"bot medic uber health threshold\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: bot medic uber deploy delay duration (546)": {
+		"prefix": "bot medic uber deploy delay duration",
+		"body": "\"bot medic uber deploy delay duration\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: single wep deploy time decreased (547)": {
+		"prefix": "single wep deploy time decreased",
+		"body": "\"single wep deploy time decreased\"",
+		"description": "(inverted_percentage) This weapon deploys %s1% faster"
+	},
+	"(+) Attribute: halloween reload time decreased (548)": {
+		"prefix": "halloween reload time decreased",
+		"body": "\"halloween reload time decreased\"",
+		"description": "(inverted_percentage)"
+	},
+	"(+) Attribute: halloween fire rate bonus (549)": {
+		"prefix": "halloween fire rate bonus",
+		"body": "\"halloween fire rate bonus\"",
+		"description": "(inverted_percentage)"
+	},
+	"(+) Attribute: halloween increased jump height (550)": {
+		"prefix": "halloween increased jump height",
+		"body": "\"halloween increased jump height\"",
+		"description": "(percentage)"
+	},
+	"(+) Attribute: special taunt (551)": {
+		"prefix": "special taunt",
+		"body": "\"special taunt\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: revive (554)": {
+		"prefix": "revive",
+		"body": "\"revive\"",
+		"description": "(additive) Revive Teammates"
+	},
+	"(+) Attribute: taunt attack name (556)": {
+		"prefix": "taunt attack name",
+		"body": "\"taunt attack name\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: taunt attack time (557)": {
+		"prefix": "taunt attack time",
+		"body": "\"taunt attack time\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: taunt force move forward (600)": {
+		"prefix": "taunt force move forward",
+		"body": "\"taunt force move forward\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: taunt mimic (602)": {
+		"prefix": "taunt mimic",
+		"body": "\"taunt mimic\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: taunt success sound (606)": {
+		"prefix": "taunt success sound",
+		"body": "\"taunt success sound\"",
+		"description": "(additive) Attrib_TauntSoundSuccess"
+	},
+	"(+) Attribute: taunt success sound offset (607)": {
+		"prefix": "taunt success sound offset",
+		"body": "\"taunt success sound offset\"",
+		"description": "(additive) Attrib_PhaseCloak"
+	},
+	"(+) Attribute: taunt success sound loop (608)": {
+		"prefix": "taunt success sound loop",
+		"body": "\"taunt success sound loop\"",
+		"description": "(additive) Attrib_TauntSoundSuccess"
+	},
+	"(+) Attribute: taunt success sound loop offset (609)": {
+		"prefix": "taunt success sound loop offset",
+		"body": "\"taunt success sound loop offset\"",
+		"description": "(additive) Attrib_PhaseCloak"
+	},
+	"(+) Attribute: increased air control (610)": {
+		"prefix": "increased air control",
+		"body": "\"increased air control\"",
+		"description": "(percentage) %s1% increased air control."
+	},
+	"(+) Attribute: rocket launch impulse (612)": {
+		"prefix": "rocket launch impulse",
+		"body": "\"rocket launch impulse\"",
+		"description": "(additive) Attrib_RocketLaunchImpulse"
+	},
+	"(+) Attribute: minicritboost on kill (613)": {
+		"prefix": "minicritboost on kill",
+		"body": "\"minicritboost on kill\"",
+		"description": "(additive) On Kill: Gain Mini-crits for %s1 seconds."
+	},
+	"(-) Attribute: no metal from dispensers while active (614)": {
+		"prefix": "no metal from dispensers while active",
+		"body": "\"no metal from dispensers while active\"",
+		"description": "(additive) No metal from dispensers when active."
+	},
+	"(+) Attribute: projectile entity name (615)": {
+		"prefix": "projectile entity name",
+		"body": "\"projectile entity name\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: is throwable primable (616)": {
+		"prefix": "is throwable primable",
+		"body": "\"is throwable primable\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: throwable detonation time (617)": {
+		"prefix": "throwable detonation time",
+		"body": "\"throwable detonation time\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: throwable recharge time (618)": {
+		"prefix": "throwable recharge time",
+		"body": "\"throwable recharge time\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: closerange backattack minicrits (619)": {
+		"prefix": "closerange backattack minicrits",
+		"body": "\"closerange backattack minicrits\"",
+		"description": "(additive) Mini-crits targets when fired at their back from close range"
+	},
+	"(-) Attribute: torso scale (620)": {
+		"prefix": "torso scale",
+		"body": "\"torso scale\"",
+		"description": "(percentage)"
+	},
+	"(+) Attribute: rocketjump attackrate bonus (621)": {
+		"prefix": "rocketjump attackrate bonus",
+		"body": "\"rocketjump attackrate bonus\"",
+		"description": "(percentage) Increased attack speed and smaller blast radius while blast jumping"
+	},
+	"(+) Attribute: is throwable chargeable (622)": {
+		"prefix": "is throwable chargeable",
+		"body": "\"is throwable chargeable\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: back headshot (630)": {
+		"prefix": "back headshot",
+		"body": "\"back headshot\"",
+		"description": "(additive) Attrib_BackHeadshot"
+	},
+	"(+) Attribute: rj air bombardment (632)": {
+		"prefix": "rj air bombardment",
+		"body": "\"rj air bombardment\"",
+		"description": "(additive) Fires 3 barrages while explosive jumping"
+	},
+	"(+) Attribute: projectile particle name (633)": {
+		"prefix": "projectile particle name",
+		"body": "\"projectile particle name\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: air jump on attack (634)": {
+		"prefix": "air jump on attack",
+		"body": "\"air jump on attack\"",
+		"description": "(additive) Attrib_AirJumpOnAttack"
+	},
+	"(+) Attribute: sniper crit no scope (636)": {
+		"prefix": "sniper crit no scope",
+		"body": "\"sniper crit no scope\"",
+		"description": "(additive) Charge and fire shots independent of zoom"
+	},
+	"(+) Attribute: sniper independent zoom DISPLAY ONLY (637)": {
+		"prefix": "sniper independent zoom DISPLAY ONLY",
+		"body": "\"sniper independent zoom DISPLAY ONLY\"",
+		"description": "(additive) Zoom does not affect charge"
+	},
+	"(+) Attribute: axtinguisher properties (638)": {
+		"prefix": "axtinguisher properties",
+		"body": "\"axtinguisher properties\"",
+		"description": "(additive) 100% critical hits burning players from behind. Mini-crits burning players from the front."
+	},
+	"(+) Attribute: full charge turn control (639)": {
+		"prefix": "full charge turn control",
+		"body": "\"full charge turn control\"",
+		"description": "(additive) Full turning control while charging"
+	},
+	"(+) Attribute: parachute attribute (640)": {
+		"prefix": "parachute attribute",
+		"body": "\"parachute attribute\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: taunt force weapon slot (641)": {
+		"prefix": "taunt force weapon slot",
+		"body": "\"taunt force weapon slot\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: mini rockets (642)": {
+		"prefix": "mini rockets",
+		"body": "\"mini rockets\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: rocket jump damage reduction HIDDEN (643)": {
+		"prefix": "rocket jump damage reduction HIDDEN",
+		"body": "\"rocket jump damage reduction HIDDEN\"",
+		"description": "(percentage) %s1% blast damage from rocket jumps"
+	},
+	"(+) Attribute: clipsize increase on kill (644)": {
+		"prefix": "clipsize increase on kill",
+		"body": "\"clipsize increase on kill\"",
+		"description": "(additive) Clip size increased on kill"
+	},
+	"(+) Attribute: breadgloves properties (645)": {
+		"prefix": "breadgloves properties",
+		"body": "\"breadgloves properties\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: taunt turn speed (646)": {
+		"prefix": "taunt turn speed",
+		"body": "\"taunt turn speed\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: sniper fires tracer HIDDEN (647)": {
+		"prefix": "sniper fires tracer HIDDEN",
+		"body": "\"sniper fires tracer HIDDEN\"",
+		"description": "(additive) Fires tracer rounds"
+	},
+	"(+) Attribute: fire rate bonus with reduced health (651)": {
+		"prefix": "fire rate bonus with reduced health",
+		"body": "\"fire rate bonus with reduced health\"",
+		"description": "(inverted_percentage) Fire rate increases as health decreases"
+	},
+	"(+) Attribute: tag__summer2014 (661)": {
+		"prefix": "tag__summer2014",
+		"body": "\"tag__summer2014\"",
+		"description": "(additive) Rewarded for participating in the 2014 Summer Adventure."
+	},
+	"(+) Attribute: crate generation code (662)": {
+		"prefix": "crate generation code",
+		"body": "\"crate generation code\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: stickybomb fizzle time (669)": {
+		"prefix": "stickybomb fizzle time",
+		"body": "\"stickybomb fizzle time\"",
+		"description": "(additive) Stickybombs fizzle %s1 seconds after landing"
+	},
+	"(+) Attribute: stickybomb charge rate (670)": {
+		"prefix": "stickybomb charge rate",
+		"body": "\"stickybomb charge rate\"",
+		"description": "(inverted_percentage) Max charge time decreased by %s1%"
+	},
+	"(+) Attribute: grenade no bounce (671)": {
+		"prefix": "grenade no bounce",
+		"body": "\"grenade no bounce\"",
+		"description": "(additive) Grenades have very little bounce and roll"
+	},
+	"(+) Attribute: class select override vcd (674)": {
+		"prefix": "class select override vcd",
+		"body": "\"class select override vcd\"",
+		"description": "(additive) Attrib_Class_Select_Override_VCD"
+	},
+	"(+) Attribute: custom projectile model (675)": {
+		"prefix": "custom projectile model",
+		"body": "\"custom projectile model\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: lose demo charge on damage when charging (676)": {
+		"prefix": "lose demo charge on damage when charging",
+		"body": "\"lose demo charge on damage when charging\"",
+		"description": "(additive) Taking damage while shield charging reduces remaining charging time"
+	},
+	"(+) Attribute: grenade no spin (681)": {
+		"prefix": "grenade no spin",
+		"body": "\"grenade no spin\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: grenade detonation damage penalty (684)": {
+		"prefix": "grenade detonation damage penalty",
+		"body": "\"grenade detonation damage penalty\"",
+		"description": "(percentage) %s1% damage on grenades that explode on timer"
+	},
+	"(+) Attribute: taunt turn acceleration time (687)": {
+		"prefix": "taunt turn acceleration time",
+		"body": "\"taunt turn acceleration time\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: taunt move acceleration time (688)": {
+		"prefix": "taunt move acceleration time",
+		"body": "\"taunt move acceleration time\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: taunt move speed (689)": {
+		"prefix": "taunt move speed",
+		"body": "\"taunt move speed\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: shuffle crate item def min (690)": {
+		"prefix": "shuffle crate item def min",
+		"body": "\"shuffle crate item def min\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: shuffle crate item def max (691)": {
+		"prefix": "shuffle crate item def max",
+		"body": "\"shuffle crate item def max\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: limited quantity item (692)": {
+		"prefix": "limited quantity item",
+		"body": "\"limited quantity item\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: SET BONUS: alien isolation xeno bonus pos (693)": {
+		"prefix": "SET BONUS: alien isolation xeno bonus pos",
+		"body": "\"SET BONUS: alien isolation xeno bonus pos\"",
+		"description": "(additive) Increased Melee damage against Isolated Merc Set"
+	},
+	"(-) Attribute: SET BONUS: alien isolation xeno bonus neg (694)": {
+		"prefix": "SET BONUS: alien isolation xeno bonus neg",
+		"body": "\"SET BONUS: alien isolation xeno bonus neg\"",
+		"description": "(additive) Increased Nostromo Napalmer damage taken from Isolated Merc Set"
+	},
+	"(+) Attribute: SET BONUS: alien isolation merc bonus pos (695)": {
+		"prefix": "SET BONUS: alien isolation merc bonus pos",
+		"body": "\"SET BONUS: alien isolation merc bonus pos\"",
+		"description": "(additive) Increased Nostromo Napalmer damage against Isolationist Pack Set"
+	},
+	"(-) Attribute: SET BONUS: alien isolation merc bonus neg (696)": {
+		"prefix": "SET BONUS: alien isolation merc bonus neg",
+		"body": "\"SET BONUS: alien isolation merc bonus neg\"",
+		"description": "(additive) Increased Melee damage taken from Isolationist Pack Set"
+	},
+	"(-) Attribute: disable weapon switch (698)": {
+		"prefix": "disable weapon switch",
+		"body": "\"disable weapon switch\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: hand scale (699)": {
+		"prefix": "hand scale",
+		"body": "\"hand scale\"",
+		"description": "(percentage)"
+	},
+	"(+) Attribute: display duck leaderboard (700)": {
+		"prefix": "display duck leaderboard",
+		"body": "\"display duck leaderboard\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: duck rating (701)": {
+		"prefix": "duck rating",
+		"body": "\"duck rating\"",
+		"description": "(additive) Duck XP Level : %s1"
+	},
+	"(+) Attribute: duck badge level (702)": {
+		"prefix": "duck badge level",
+		"body": "\"duck badge level\"",
+		"description": "(additive) Duck Power : %s1 / 5"
+	},
+	"(+) Attribute: tag__eotlearlysupport (703)": {
+		"prefix": "tag__eotlearlysupport",
+		"body": "\"tag__eotlearlysupport\"",
+		"description": "(additive) Early Supporter of End of the Line Community Update"
+	},
+	"(+) Attribute: unlimited quantity hidden (704)": {
+		"prefix": "unlimited quantity hidden",
+		"body": "\"unlimited quantity hidden\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: duckstreaks active (705)": {
+		"prefix": "duckstreaks active",
+		"body": "\"duckstreaks active\"",
+		"description": "(additive) Duckstreaks Active"
+	},
+	"(+) Attribute: panic_attack (708)": {
+		"prefix": "panic_attack",
+		"body": "\"panic_attack\"",
+		"description": "(additive) Hold fire to load up to 4 shells"
+	},
+	"(-) Attribute: panic_attack_negative (709)": {
+		"prefix": "panic_attack_negative",
+		"body": "\"panic_attack_negative\"",
+		"description": "(inverted_percentage) Weapon spread increases as health decreases"
+	},
+	"(-) Attribute: auto fires full clip penalty (710)": {
+		"prefix": "auto fires full clip penalty",
+		"body": "\"auto fires full clip penalty\"",
+		"description": "(additive) Attrib_AutoFiresFullClipNegative"
+	},
+	"(-) Attribute: auto fires when full (711)": {
+		"prefix": "auto fires when full",
+		"body": "\"auto fires when full\"",
+		"description": "(additive) Attrib_AutoFiresWhenFull"
+	},
+	"(+) Attribute: force weapon switch (712)": {
+		"prefix": "force weapon switch",
+		"body": "\"force weapon switch\"",
+		"description": "(additive)"
+	},
+	"(=) Attribute: weapon_uses_stattrak_module (719)": {
+		"prefix": "weapon_uses_stattrak_module",
+		"body": "\"weapon_uses_stattrak_module\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: is_operation_pass (723)": {
+		"prefix": "is_operation_pass",
+		"body": "\"is_operation_pass\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: weapon_stattrak_module_scale (724)": {
+		"prefix": "weapon_stattrak_module_scale",
+		"body": "\"weapon_stattrak_module_scale\"",
+		"description": "(percentage)"
+	},
+	"(?) Attribute: set_item_texture_wear (725)": {
+		"prefix": "set_item_texture_wear",
+		"body": "\"set_item_texture_wear\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: cloak_consume_on_feign_death_activate (726)": {
+		"prefix": "cloak_consume_on_feign_death_activate",
+		"body": "\"cloak_consume_on_feign_death_activate\"",
+		"description": "(percentage) %s1% cloak meter when Feign Death is activated"
+	},
+	"(+) Attribute: stickybomb_charge_damage_increase (727)": {
+		"prefix": "stickybomb_charge_damage_increase",
+		"body": "\"stickybomb_charge_damage_increase\"",
+		"description": "(percentage) Up to +%s1% damage based on charge"
+	},
+	"(-) Attribute: NoCloakWhenCloaked (728)": {
+		"prefix": "NoCloakWhenCloaked",
+		"body": "\"NoCloakWhenCloaked\"",
+		"description": "(additive) No cloak meter from ammo boxes when invisible"
+	},
+	"(-) Attribute: ReducedCloakFromAmmo (729)": {
+		"prefix": "ReducedCloakFromAmmo",
+		"body": "\"ReducedCloakFromAmmo\"",
+		"description": "(percentage) %s1% cloak meter from ammo boxes"
+	},
+	"(+) Attribute: elevate to unusual if applicable (730)": {
+		"prefix": "elevate to unusual if applicable",
+		"body": "\"elevate to unusual if applicable\"",
+		"description": "(additive) Attrib_ElevateQuality"
+	},
+	"(?) Attribute: weapon_allow_inspect (731)": {
+		"prefix": "weapon_allow_inspect",
+		"body": "\"weapon_allow_inspect\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: metal_pickup_decreased (732)": {
+		"prefix": "metal_pickup_decreased",
+		"body": "\"metal_pickup_decreased\"",
+		"description": "(inverted_percentage) %s1% less metal from pickups and dispensers"
+	},
+	"(-) Attribute: lose hype on take damage (733)": {
+		"prefix": "lose hype on take damage",
+		"body": "\"lose hype on take damage\"",
+		"description": "(additive) Boost reduced when hit"
+	},
+	"(-) Attribute: healing received penalty (734)": {
+		"prefix": "healing received penalty",
+		"body": "\"healing received penalty\"",
+		"description": "(inverted_percentage) %s1% less healing from all sources"
+	},
+	"(+) Attribute: crit_vs_burning_FLARES_DISPLAY_ONLY (735)": {
+		"prefix": "crit_vs_burning_FLARES_DISPLAY_ONLY",
+		"body": "\"crit_vs_burning_FLARES_DISPLAY_ONLY\"",
+		"description": "(or) 100% critical hit vs burning players"
+	},
+	"(+) Attribute: speed_boost_on_kill (736)": {
+		"prefix": "speed_boost_on_kill",
+		"body": "\"speed_boost_on_kill\"",
+		"description": "(additive) Gain a speed boost on kill"
+	},
+	"(+) Attribute: speed_boost_on_hit (737)": {
+		"prefix": "speed_boost_on_hit",
+		"body": "\"speed_boost_on_hit\"",
+		"description": "(additive) On Hit: Gain a speed boost"
+	},
+	"(+) Attribute: spunup_damage_resistance (738)": {
+		"prefix": "spunup_damage_resistance",
+		"body": "\"spunup_damage_resistance\"",
+		"description": "(percentage) %s1% damage resistance when below 50% health and spun up"
+	},
+	"(-) Attribute: ubercharge overheal rate penalty (739)": {
+		"prefix": "ubercharge overheal rate penalty",
+		"body": "\"ubercharge overheal rate penalty\"",
+		"description": "(percentage) %s1% ÜberCharge rate on Overhealed patients"
+	},
+	"(-) Attribute: reduced_healing_from_medics (740)": {
+		"prefix": "reduced_healing_from_medics",
+		"body": "\"reduced_healing_from_medics\"",
+		"description": "(percentage) %s1% less healing from Medic sources"
+	},
+	"(+) Attribute: health on radius damage (741)": {
+		"prefix": "health on radius damage",
+		"body": "\"health on radius damage\"",
+		"description": "(additive) On Hit: Gain up to +%s1 health per attack"
+	},
+	"(?) Attribute: style changes on strange level (742)": {
+		"prefix": "style changes on strange level",
+		"body": "\"style changes on strange level\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: cannot restore (743)": {
+		"prefix": "cannot restore",
+		"body": "\"cannot restore\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: hide crate series number (744)": {
+		"prefix": "hide crate series number",
+		"body": "\"hide crate series number\"",
+		"description": "(?)"
+	},
+	"(=) Attribute: has team color paintkit (745)": {
+		"prefix": "has team color paintkit",
+		"body": "\"has team color paintkit\"",
+		"description": "(additive) Team Colored Decorated Weapon"
+	},
+	"(?) Attribute: cosmetic_allow_inspect (746)": {
+		"prefix": "cosmetic_allow_inspect",
+		"body": "\"cosmetic_allow_inspect\"",
+		"description": "(additive) "
+	},
+	"(=) Attribute: hat only unusual effect (747)": {
+		"prefix": "hat only unusual effect",
+		"body": "\"hat only unusual effect\"",
+		"description": "(particle_index)"
+	},
+	"(=) Attribute: items traded in for (748)": {
+		"prefix": "items traded in for",
+		"body": "\"items traded in for\"",
+		"description": "(additive) Items Traded in : %s1"
+	},
+	"(?) Attribute: texture_wear_default (749)": {
+		"prefix": "texture_wear_default",
+		"body": "\"texture_wear_default\"",
+		"description": "(additive)"
+	},
+	"(=) Attribute: taunt only unusual effect (750)": {
+		"prefix": "taunt only unusual effect",
+		"body": "\"taunt only unusual effect\"",
+		"description": "(particle_index)"
+	},
+	"(=) Attribute: deactive date (751)": {
+		"prefix": "deactive date",
+		"body": "\"deactive date\"",
+		"description": "(date)"
+	},
+	"(?) Attribute: is giger counter (752)": {
+		"prefix": "is giger counter",
+		"body": "\"is giger counter\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: hide_strange_prefix (753)": {
+		"prefix": "hide_strange_prefix",
+		"body": "\"hide_strange_prefix\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: always_transmit_so (754)": {
+		"prefix": "always_transmit_so",
+		"body": "\"always_transmit_so\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: allow_halloween_offering (760)": {
+		"prefix": "allow_halloween_offering",
+		"body": "\"allow_halloween_offering\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: cannot_transmute (762)": {
+		"prefix": "cannot_transmute",
+		"body": "\"cannot_transmute\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: single wep holster time increased (772)": {
+		"prefix": "single wep holster time increased",
+		"body": "\"single wep holster time increased\"",
+		"description": "(percentage) This weapon holsters %s1% slower"
+	},
+	"(-) Attribute: single wep deploy time increased (773)": {
+		"prefix": "single wep deploy time increased",
+		"body": "\"single wep deploy time increased\"",
+		"description": "(inverted_percentage) This weapon deploys %s1% slower"
+	},
+	"(-) Attribute: charge time decreased (774)": {
+		"prefix": "charge time decreased",
+		"body": "\"charge time decreased\"",
+		"description": "(additive) %s1 sec decrease in charge duration"
+	},
+	"(-) Attribute: dmg penalty vs buildings (775)": {
+		"prefix": "dmg penalty vs buildings",
+		"body": "\"dmg penalty vs buildings\"",
+		"description": "(percentage) %s1% damage penalty vs buildings"
+	},
+	"(-) Attribute: charge impact damage decreased (776)": {
+		"prefix": "charge impact damage decreased",
+		"body": "\"charge impact damage decreased\"",
+		"description": "(percentage) %s1% decrease in charge impact damage"
+	},
+	"(=) Attribute: non economy (777)": {
+		"prefix": "non economy",
+		"body": "\"non economy\"",
+		"description": "(additive) Not Tradable, Marketable, Usable in Crafting, or Gift Wrappable"
+	},
+	"(+) Attribute: charge meter on hit (778)": {
+		"prefix": "charge meter on hit",
+		"body": "\"charge meter on hit\"",
+		"description": "(additive_percentage) Melee hits refill %s1% of your charge meter."
+	},
+	"(+) Attribute: minicrit_boost_when_charged (779)": {
+		"prefix": "minicrit_boost_when_charged",
+		"body": "\"minicrit_boost_when_charged\"",
+		"description": "(additive) Secondary fire when charged grants mini-crits for %s1 seconds."
+	},
+	"(+) Attribute: minicrit_boost_charge_rate (780)": {
+		"prefix": "minicrit_boost_charge_rate",
+		"body": "\"minicrit_boost_charge_rate\"",
+		"description": "(additive) Dealing damage fills charge meter."
+	},
+	"(=) Attribute: is_a_sword (781)": {
+		"prefix": "is_a_sword",
+		"body": "\"is_a_sword\"",
+		"description": "(additive) This Weapon has a large melee range and deploys and holsters slower"
+	},
+	"(+) Attribute: ammo gives charge (782)": {
+		"prefix": "ammo gives charge",
+		"body": "\"ammo gives charge\"",
+		"description": "(additive) Ammo boxes collected also give Charge"
+	},
+	"(+) Attribute: extinguish restores health (783)": {
+		"prefix": "extinguish restores health",
+		"body": "\"extinguish restores health\"",
+		"description": "(additive) Extinguishing teammates restores %s1 health"
+	},
+	"(+) Attribute: extinguish reduces cooldown (784)": {
+		"prefix": "extinguish reduces cooldown",
+		"body": "\"extinguish reduces cooldown\"",
+		"description": "(percentage) Extinguishing teammates reduces cooldown by %s1%"
+	},
+	"(?) Attribute: cannot giftwrap (785)": {
+		"prefix": "cannot giftwrap",
+		"body": "\"cannot giftwrap\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: tool needs giftwrap (786)": {
+		"prefix": "tool needs giftwrap",
+		"body": "\"tool needs giftwrap\"",
+		"description": "(?)"
+	},
+	"(+) Attribute: fuse bonus (787)": {
+		"prefix": "fuse bonus",
+		"body": "\"fuse bonus\"",
+		"description": "(percentage) %s1% fuse time on grenades"
+	},
+	"(+) Attribute: move speed bonus shield required (788)": {
+		"prefix": "move speed bonus shield required",
+		"body": "\"move speed bonus shield required\"",
+		"description": "(percentage) +%s1% faster move speed on wearer (shield required)"
+	},
+	"(+) Attribute: damage bonus bullet vs sentry target (789)": {
+		"prefix": "damage bonus bullet vs sentry target",
+		"body": "\"damage bonus bullet vs sentry target\"",
+		"description": "(percentage) %s1% increased damage to your sentry's target"
+	},
+	"(+) Attribute: mod teleporter cost (790)": {
+		"prefix": "mod teleporter cost",
+		"body": "\"mod teleporter cost\"",
+		"description": "(percentage) %s1% metal cost when constructing or upgrading teleporters"
+	},
+	"(+) Attribute: damage blast push (791)": {
+		"prefix": "damage blast push",
+		"body": "\"damage blast push\"",
+		"description": "(percentage) Attrib_DamageBlastPush"
+	},
+	"(+) Attribute: move speed bonus resource level (792)": {
+		"prefix": "move speed bonus resource level",
+		"body": "\"move speed bonus resource level\"",
+		"description": "(percentage)"
+	},
+	"(+) Attribute: hype on damage (793)": {
+		"prefix": "hype on damage",
+		"body": "\"hype on damage\"",
+		"description": "(additive) On Hit: Builds Hype"
+	},
+	"(+) Attribute: dmg taken from fire reduced on active (794)": {
+		"prefix": "dmg taken from fire reduced on active",
+		"body": "\"dmg taken from fire reduced on active\"",
+		"description": "(inverted_percentage) +%s1% fire damage resistance while deployed"
+	},
+	"(+) Attribute: damage bonus vs burning (795)": {
+		"prefix": "damage bonus vs burning",
+		"body": "\"damage bonus vs burning\"",
+		"description": "(percentage) %s1% damage bonus vs burning players"
+	},
+	"(?) Attribute: min_viewmodel_offset (796)": {
+		"prefix": "min_viewmodel_offset",
+		"body": "\"min_viewmodel_offset\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: dmg pierces resists absorbs (797)": {
+		"prefix": "dmg pierces resists absorbs",
+		"body": "\"dmg pierces resists absorbs\"",
+		"description": "(additive) Attacks pierce damage resistance effects and bonuses"
+	},
+	"(-) Attribute: energy buff dmg taken multiplier (798)": {
+		"prefix": "energy buff dmg taken multiplier",
+		"body": "\"energy buff dmg taken multiplier\"",
+		"description": "(percentage) +%s1% damage vulnerability while active"
+	},
+	"(-) Attribute: lose revenge crits on death DISPLAY ONLY (799)": {
+		"prefix": "lose revenge crits on death DISPLAY ONLY",
+		"body": "\"lose revenge crits on death DISPLAY ONLY\"",
+		"description": "(percentage) Revenge crits are lost on death"
+	},
+	"(-) Attribute: patient overheal penalty (800)": {
+		"prefix": "patient overheal penalty",
+		"body": "\"patient overheal penalty\"",
+		"description": "(percentage) %s1% maximum overheal on wearer"
+	},
+	"(?) Attribute: item_meter_charge_rate (801)": {
+		"prefix": "item_meter_charge_rate",
+		"body": "\"item_meter_charge_rate\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: mult_spread_scale_first_shot (804)": {
+		"prefix": "mult_spread_scale_first_shot",
+		"body": "\"mult_spread_scale_first_shot\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: unusualifier_attribute_template_name (805)": {
+		"prefix": "unusualifier_attribute_template_name",
+		"body": "\"unusualifier_attribute_template_name\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: tool_target_item_icon_offset (806)": {
+		"prefix": "tool_target_item_icon_offset",
+		"body": "\"tool_target_item_icon_offset\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: add_head_on_kill (807)": {
+		"prefix": "add_head_on_kill",
+		"body": "\"add_head_on_kill\"",
+		"description": "(additive_percentage) Collect the organs of your victims"
+	},
+	"(-) Attribute: mult_spread_scales_consecutive (808)": {
+		"prefix": "mult_spread_scales_consecutive",
+		"body": "\"mult_spread_scales_consecutive\"",
+		"description": "(additive_percentage) Successive shots become less accurate"
+	},
+	"(+) Attribute: fixed_shot_pattern (809)": {
+		"prefix": "fixed_shot_pattern",
+		"body": "\"fixed_shot_pattern\"",
+		"description": "(additive) Fires a wide, fixed shot pattern"
+	},
+	"(-) Attribute: mod_cloak_no_regen_from_items (810)": {
+		"prefix": "mod_cloak_no_regen_from_items",
+		"body": "\"mod_cloak_no_regen_from_items\"",
+		"description": "(additive) Attrib_NoCloakFromAmmo"
+	},
+	"(+) Attribute: ubercharge_preserved_on_spawn_max (811)": {
+		"prefix": "ubercharge_preserved_on_spawn_max",
+		"body": "\"ubercharge_preserved_on_spawn_max\"",
+		"description": "(additive_percentage) Collect the organs of people you hit"
+	},
+	"(+) Attribute: mod_air_control_blast_jump (812)": {
+		"prefix": "mod_air_control_blast_jump",
+		"body": "\"mod_air_control_blast_jump\"",
+		"description": "(percentage) %s1% increased air control when blast jumping."
+	},
+	"(+) Attribute: spunup_push_force_immunity (813)": {
+		"prefix": "spunup_push_force_immunity",
+		"body": "\"spunup_push_force_immunity\"",
+		"description": "(percentage) Immune to push force from damage and airblast when spun up"
+	},
+	"(-) Attribute: mod_mark_attacker_for_death (814)": {
+		"prefix": "mod_mark_attacker_for_death",
+		"body": "\"mod_mark_attacker_for_death\"",
+		"description": "(percentage)"
+	},
+	"(?) Attribute: use_model_cache_icon (815)": {
+		"prefix": "use_model_cache_icon",
+		"body": "\"use_model_cache_icon\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: mod_disguise_consumes_cloak (816)": {
+		"prefix": "mod_disguise_consumes_cloak",
+		"body": "\"mod_disguise_consumes_cloak\"",
+		"description": "(additive) Normal disguises require (and consume) a full cloak meter"
+	},
+	"(?) Attribute: inspect_viewmodel_offset (817)": {
+		"prefix": "inspect_viewmodel_offset",
+		"body": "\"inspect_viewmodel_offset\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: is_passive_weapon (818)": {
+		"prefix": "is_passive_weapon",
+		"body": "\"is_passive_weapon\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: no_jump (819)": {
+		"prefix": "no_jump",
+		"body": "\"no_jump\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: no_duck (820)": {
+		"prefix": "no_duck",
+		"body": "\"no_duck\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: no_attack (821)": {
+		"prefix": "no_attack",
+		"body": "\"no_attack\"",
+		"description": "(additive)"
+	},
+	"(=) Attribute: airblast_destroy_projectile (822)": {
+		"prefix": "airblast_destroy_projectile",
+		"body": "\"airblast_destroy_projectile\"",
+		"description": "(additive) Attrib_AirblastDestroyProjectile"
+	},
+	"(-) Attribute: airblast_pushback_disabled (823)": {
+		"prefix": "airblast_pushback_disabled",
+		"body": "\"airblast_pushback_disabled\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: airblast_pushback_no_stun (824)": {
+		"prefix": "airblast_pushback_no_stun",
+		"body": "\"airblast_pushback_no_stun\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: airblast_pushback_no_viewpunch (825)": {
+		"prefix": "airblast_pushback_no_viewpunch",
+		"body": "\"airblast_pushback_no_viewpunch\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: airblast_deflect_projectiles_disabled (826)": {
+		"prefix": "airblast_deflect_projectiles_disabled",
+		"body": "\"airblast_deflect_projectiles_disabled\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: airblast_put_out_teammate_disabled (827)": {
+		"prefix": "airblast_put_out_teammate_disabled",
+		"body": "\"airblast_put_out_teammate_disabled\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: afterburn duration penalty (828)": {
+		"prefix": "afterburn duration penalty",
+		"body": "\"afterburn duration penalty\"",
+		"description": "(percentage)"
+	},
+	"(+) Attribute: afterburn duration bonus (829)": {
+		"prefix": "afterburn duration bonus",
+		"body": "\"afterburn duration bonus\"",
+		"description": "(percentage)"
+	},
+	"(=) Attribute: aoe_deflection (830)": {
+		"prefix": "aoe_deflection",
+		"body": "\"aoe_deflection\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: mult_end_flame_size (831)": {
+		"prefix": "mult_end_flame_size",
+		"body": "\"mult_end_flame_size\"",
+		"description": "(percentage)"
+	},
+	"(+) Attribute: airblast_give_teammate_speed_boost (832)": {
+		"prefix": "airblast_give_teammate_speed_boost",
+		"body": "\"airblast_give_teammate_speed_boost\"",
+		"description": "(additive)"
+	},
+	"(=) Attribute: airblast_turn_projectile_to_ammo (833)": {
+		"prefix": "airblast_turn_projectile_to_ammo",
+		"body": "\"airblast_turn_projectile_to_ammo\"",
+		"description": "(additive)"
+	},
+	"(=) Attribute: paintkit_proto_def_index (834)": {
+		"prefix": "paintkit_proto_def_index",
+		"body": "\"paintkit_proto_def_index\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: taunt_attr_player_invis_percent (835)": {
+		"prefix": "taunt_attr_player_invis_percent",
+		"body": "\"taunt_attr_player_invis_percent\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: redirected_flame_size_mult (837)": {
+		"prefix": "redirected_flame_size_mult",
+		"body": "\"redirected_flame_size_mult\"",
+		"description": "(percentage)"
+	},
+	"(+) Attribute: flame_reflect_on_collision (838)": {
+		"prefix": "flame_reflect_on_collision",
+		"body": "\"flame_reflect_on_collision\"",
+		"description": "(additive)"
+	},
+	"(+) Attribute: flame_spread_degree (839)": {
+		"prefix": "flame_spread_degree",
+		"body": "\"flame_spread_degree\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: holster_anim_time (840)": {
+		"prefix": "holster_anim_time",
+		"body": "\"holster_anim_time\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: flame_gravity (841)": {
+		"prefix": "flame_gravity",
+		"body": "\"flame_gravity\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: flame_ignore_player_velocity (842)": {
+		"prefix": "flame_ignore_player_velocity",
+		"body": "\"flame_ignore_player_velocity\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: flame_drag (843)": {
+		"prefix": "flame_drag",
+		"body": "\"flame_drag\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: flame_speed (844)": {
+		"prefix": "flame_speed",
+		"body": "\"flame_speed\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: grenades1_resupply_denied (845)": {
+		"prefix": "grenades1_resupply_denied",
+		"body": "\"grenades1_resupply_denied\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: grenades2_resupply_denied (846)": {
+		"prefix": "grenades2_resupply_denied",
+		"body": "\"grenades2_resupply_denied\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: grenades3_resupply_denied (847)": {
+		"prefix": "grenades3_resupply_denied",
+		"body": "\"grenades3_resupply_denied\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: item_meter_resupply_denied (848)": {
+		"prefix": "item_meter_resupply_denied",
+		"body": "\"item_meter_resupply_denied\"",
+		"description": "(additive) Spawning and resupply do not affect the Gas meter"
+	},
+	"(+) Attribute: mult_player_movespeed_active (851)": {
+		"prefix": "mult_player_movespeed_active",
+		"body": "\"mult_player_movespeed_active\"",
+		"description": "(percentage) +%s1% faster move speed on wearer"
+	},
+	"(-) Attribute: mult_dmgtaken_active (852)": {
+		"prefix": "mult_dmgtaken_active",
+		"body": "\"mult_dmgtaken_active\"",
+		"description": "(percentage) %s1% damage vulnerability on wearer"
+	},
+	"(-) Attribute: mult_patient_overheal_penalty_active (853)": {
+		"prefix": "mult_patient_overheal_penalty_active",
+		"body": "\"mult_patient_overheal_penalty_active\"",
+		"description": "(percentage) %s1% maximum overheal on wearer"
+	},
+	"(-) Attribute: mult_health_fromhealers_penalty_active (854)": {
+		"prefix": "mult_health_fromhealers_penalty_active",
+		"body": "\"mult_health_fromhealers_penalty_active\"",
+		"description": "(percentage) %s1% health from healers on wearer"
+	},
+	"(-) Attribute: mod_maxhealth_drain_rate (855)": {
+		"prefix": "mod_maxhealth_drain_rate",
+		"body": "\"mod_maxhealth_drain_rate\"",
+		"description": "(additive) Maximum health is drained while item is active"
+	},
+	"(?) Attribute: item_meter_charge_type (856)": {
+		"prefix": "item_meter_charge_type",
+		"body": "\"item_meter_charge_type\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: max_flame_reflection_count (859)": {
+		"prefix": "max_flame_reflection_count",
+		"body": "\"max_flame_reflection_count\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: flame_reflection_add_life_time (860)": {
+		"prefix": "flame_reflection_add_life_time",
+		"body": "\"flame_reflection_add_life_time\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: reflected_flame_dmg_reduction (861)": {
+		"prefix": "reflected_flame_dmg_reduction",
+		"body": "\"reflected_flame_dmg_reduction\"",
+		"description": "(percentage)"
+	},
+	"(?) Attribute: flame_lifetime (862)": {
+		"prefix": "flame_lifetime",
+		"body": "\"flame_lifetime\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: flame_random_life_time_offset (863)": {
+		"prefix": "flame_random_life_time_offset",
+		"body": "\"flame_random_life_time_offset\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: flame_up_speed (865)": {
+		"prefix": "flame_up_speed",
+		"body": "\"flame_up_speed\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: custom_paintkit_seed_lo (866)": {
+		"prefix": "custom_paintkit_seed_lo",
+		"body": "\"custom_paintkit_seed_lo\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: custom_paintkit_seed_hi (867)": {
+		"prefix": "custom_paintkit_seed_hi",
+		"body": "\"custom_paintkit_seed_hi\"",
+		"description": "(additive)"
+	},
+	"(-) Attribute: crit_dmg_falloff (868)": {
+		"prefix": "crit_dmg_falloff",
+		"body": "\"crit_dmg_falloff\"",
+		"description": "(additive) Critical damage is affected by range"
+	},
+	"(-) Attribute: crits_become_minicrits (869)": {
+		"prefix": "crits_become_minicrits",
+		"body": "\"crits_become_minicrits\"",
+		"description": "(additive) Minicrits whenever it would normally crit"
+	},
+	"(+) Attribute: falling_impact_radius_pushback (870)": {
+		"prefix": "falling_impact_radius_pushback",
+		"body": "\"falling_impact_radius_pushback\"",
+		"description": "(additive) Push enemies back when you land (force and radius based on velocity)"
+	},
+	"(+) Attribute: falling_impact_radius_stun (871)": {
+		"prefix": "falling_impact_radius_stun",
+		"body": "\"falling_impact_radius_stun\"",
+		"description": "(additive) Stun enemies when you land"
+	},
+	"(+) Attribute: thermal_thruster_air_launch (872)": {
+		"prefix": "thermal_thruster_air_launch",
+		"body": "\"thermal_thruster_air_launch\"",
+		"description": "(additive) Able to re-launch while already in-flight"
+	},
+	"(+) Attribute: thermal_thruster (873)": {
+		"prefix": "thermal_thruster",
+		"body": "\"thermal_thruster\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: mult_item_meter_charge_rate (874)": {
+		"prefix": "mult_item_meter_charge_rate",
+		"body": "\"mult_item_meter_charge_rate\"",
+		"description": "(inverted_percentage) %s1% faster recharge rate"
+	},
+	"(?) Attribute: explode_on_ignite (875)": {
+		"prefix": "explode_on_ignite",
+		"body": "\"explode_on_ignite\"",
+		"description": "(additive) Ignited enemies explode"
+	},
+	"(-) Attribute: lunchbox healing decreased (876)": {
+		"prefix": "lunchbox healing decreased",
+		"body": "\"lunchbox healing decreased\"",
+		"description": "(percentage) %s1% healing effect"
+	},
+	"(+) Attribute: speed_boost_on_hit_enemy (877)": {
+		"prefix": "speed_boost_on_hit_enemy",
+		"body": "\"speed_boost_on_hit_enemy\"",
+		"description": "(additive) Gain a speed boost when you hit an enemy player"
+	},
+	"(-) Attribute: item_meter_starts_empty_DISPLAY_ONLY (878)": {
+		"prefix": "item_meter_starts_empty_DISPLAY_ONLY",
+		"body": "\"item_meter_starts_empty_DISPLAY_ONLY\"",
+		"description": "(additive) Gas meter starts empty"
+	},
+	"(+) Attribute: item_meter_charge_type_3_DISPLAY_ONLY (879)": {
+		"prefix": "item_meter_charge_type_3_DISPLAY_ONLY",
+		"body": "\"item_meter_charge_type_3_DISPLAY_ONLY\"",
+		"description": "(additive) Gas meter builds with damage done and/or time"
+	},
+	"(-) Attribute: repair health to metal ratio DISPLAY ONLY (880)": {
+		"prefix": "repair health to metal ratio DISPLAY ONLY",
+		"body": "\"repair health to metal ratio DISPLAY ONLY\"",
+		"description": "(additive) %s1-to-1 health-to-metal ratio when repairing buildings"
+	},
+	"(-) Attribute: health drain medic (881)": {
+		"prefix": "health drain medic",
+		"body": "\"health drain medic\"",
+		"description": "(additive) %s1 health regenerated per second on wearer"
+	},
+	"(+) Attribute: CARD: damage bonus (1000)": {
+		"prefix": "CARD: damage bonus",
+		"body": "\"CARD: damage bonus\"",
+		"description": "(percentage) +%s1% damage bonus"
+	},
+	"(+) Attribute: CARD: dmg taken from bullets reduced (1001)": {
+		"prefix": "CARD: dmg taken from bullets reduced",
+		"body": "\"CARD: dmg taken from bullets reduced\"",
+		"description": "(inverted_percentage) +%s1% bullet damage resistance on wearer"
+	},
+	"(+) Attribute: CARD: move speed bonus (1002)": {
+		"prefix": "CARD: move speed bonus",
+		"body": "\"CARD: move speed bonus\"",
+		"description": "(percentage) +%s1% faster move speed on wearer"
+	},
+	"(+) Attribute: CARD: health regen (1003)": {
+		"prefix": "CARD: health regen",
+		"body": "\"CARD: health regen\"",
+		"description": "(additive) +%s1 health regenerated per second on wearer"
+	},
+	"(+) Attribute: SPELL: set item tint RGB (1004)": {
+		"prefix": "SPELL: set item tint RGB",
+		"body": "\"SPELL: set item tint RGB\"",
+		"description": "(from_lookup_table) %s1"
+	},
+	"(+) Attribute: SPELL: set Halloween footstep type (1005)": {
+		"prefix": "SPELL: set Halloween footstep type",
+		"body": "\"SPELL: set Halloween footstep type\"",
+		"description": "(from_lookup_table) %s1"
+	},
+	"(+) Attribute: SPELL: Halloween voice modulation (1006)": {
+		"prefix": "SPELL: Halloween voice modulation",
+		"body": "\"SPELL: Halloween voice modulation\"",
+		"description": "(additive) Voices From Below"
+	},
+	"(+) Attribute: SPELL: Halloween pumpkin explosions (1007)": {
+		"prefix": "SPELL: Halloween pumpkin explosions",
+		"body": "\"SPELL: Halloween pumpkin explosions\"",
+		"description": "(additive) Pumpkin Bombs"
+	},
+	"(+) Attribute: SPELL: Halloween green flames (1008)": {
+		"prefix": "SPELL: Halloween green flames",
+		"body": "\"SPELL: Halloween green flames\"",
+		"description": "(additive) Halloween Fire"
+	},
+	"(+) Attribute: SPELL: Halloween death ghosts (1009)": {
+		"prefix": "SPELL: Halloween death ghosts",
+		"body": "\"SPELL: Halloween death ghosts\"",
+		"description": "(additive) Exorcism"
+	},
+	"(+) Attribute: Attack not cancel charge (1030)": {
+		"prefix": "Attack not cancel charge",
+		"body": "\"Attack not cancel charge\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: recipe component defined item 1 (2000)": {
+		"prefix": "recipe component defined item 1",
+		"body": "\"recipe component defined item 1\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: recipe component defined item 2 (2001)": {
+		"prefix": "recipe component defined item 2",
+		"body": "\"recipe component defined item 2\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: recipe component defined item 3 (2002)": {
+		"prefix": "recipe component defined item 3",
+		"body": "\"recipe component defined item 3\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: recipe component defined item 4 (2003)": {
+		"prefix": "recipe component defined item 4",
+		"body": "\"recipe component defined item 4\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: recipe component defined item 5 (2004)": {
+		"prefix": "recipe component defined item 5",
+		"body": "\"recipe component defined item 5\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: recipe component defined item 6 (2005)": {
+		"prefix": "recipe component defined item 6",
+		"body": "\"recipe component defined item 6\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: recipe component defined item 7 (2006)": {
+		"prefix": "recipe component defined item 7",
+		"body": "\"recipe component defined item 7\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: recipe component defined item 8 (2007)": {
+		"prefix": "recipe component defined item 8",
+		"body": "\"recipe component defined item 8\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: recipe component defined item 9 (2008)": {
+		"prefix": "recipe component defined item 9",
+		"body": "\"recipe component defined item 9\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: recipe component defined item 10 (2009)": {
+		"prefix": "recipe component defined item 10",
+		"body": "\"recipe component defined item 10\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: start drop date (2010)": {
+		"prefix": "start drop date",
+		"body": "\"start drop date\"",
+		"description": "(date)"
+	},
+	"(?) Attribute: end drop date (2011)": {
+		"prefix": "end drop date",
+		"body": "\"end drop date\"",
+		"description": "(date)"
+	},
+	"(?) Attribute: tool target item (2012)": {
+		"prefix": "tool target item",
+		"body": "\"tool target item\"",
+		"description": "(?)"
+	},
+	"(+) Attribute: killstreak effect (2013)": {
+		"prefix": "killstreak effect",
+		"body": "\"killstreak effect\"",
+		"description": "(killstreakeffect_index) Killstreaker: %s1"
+	},
+	"(+) Attribute: killstreak idleeffect (2014)": {
+		"prefix": "killstreak idleeffect",
+		"body": "\"killstreak idleeffect\"",
+		"description": "(killstreak_idleeffect_index) Sheen: %s1"
+	},
+	"(?) Attribute: spellbook page attr id (2015)": {
+		"prefix": "spellbook page attr id",
+		"body": "\"spellbook page attr id\"",
+		"description": "(?)"
+	},
+	"(+) Attribute: Halloween Spellbook Page: Tumidum (2016)": {
+		"prefix": "Halloween Spellbook Page: Tumidum",
+		"body": "\"Halloween Spellbook Page: Tumidum\"",
+		"description": "(additive) Pages of Tumidum: %s1"
+	},
+	"(+) Attribute: Halloween Spellbook Page: Gratanter (2017)": {
+		"prefix": "Halloween Spellbook Page: Gratanter",
+		"body": "\"Halloween Spellbook Page: Gratanter\"",
+		"description": "(additive) Pages of Gratanter: %s1"
+	},
+	"(+) Attribute: Halloween Spellbook Page: Audere (2018)": {
+		"prefix": "Halloween Spellbook Page: Audere",
+		"body": "\"Halloween Spellbook Page: Audere\"",
+		"description": "(additive) Pages of Audere: %s1"
+	},
+	"(+) Attribute: Halloween Spellbook Page: Congeriae (2019)": {
+		"prefix": "Halloween Spellbook Page: Congeriae",
+		"body": "\"Halloween Spellbook Page: Congeriae\"",
+		"description": "(additive) Pages of Congeriae: %s1"
+	},
+	"(+) Attribute: Halloween Spellbook Page: Veteris (2020)": {
+		"prefix": "Halloween Spellbook Page: Veteris",
+		"body": "\"Halloween Spellbook Page: Veteris\"",
+		"description": "(additive) Pages of Veteris: %s1"
+	},
+	"(+) Attribute: additional halloween response criteria name (2021)": {
+		"prefix": "additional halloween response criteria name",
+		"body": "\"additional halloween response criteria name\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: loot rarity (2022)": {
+		"prefix": "loot rarity",
+		"body": "\"loot rarity\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: quality text override (2023)": {
+		"prefix": "quality text override",
+		"body": "\"quality text override\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item name text override (2024)": {
+		"prefix": "item name text override",
+		"body": "\"item name text override\"",
+		"description": "(?)"
+	},
+	"(+) Attribute: killstreak tier (2025)": {
+		"prefix": "killstreak tier",
+		"body": "\"killstreak tier\"",
+		"description": "(additive) Killstreaks Active"
+	},
+	"(?) Attribute: wide item level (2026)": {
+		"prefix": "wide item level",
+		"body": "\"wide item level\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: is australium item (2027)": {
+		"prefix": "is australium item",
+		"body": "\"is australium item\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: is marketable (2028)": {
+		"prefix": "is marketable",
+		"body": "\"is marketable\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: allowed in medieval mode (2029)": {
+		"prefix": "allowed in medieval mode",
+		"body": "\"allowed in medieval mode\"",
+		"description": "(?)"
+	},
+	"(+) Attribute: crit on hard hit (2030)": {
+		"prefix": "crit on hard hit",
+		"body": "\"crit on hard hit\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: series number (2031)": {
+		"prefix": "series number",
+		"body": "\"series number\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: recipe no partial complete (2032)": {
+		"prefix": "recipe no partial complete",
+		"body": "\"recipe no partial complete\"",
+		"description": "(?)"
+	},
+	"(+) Attribute: kill refills meter (2034)": {
+		"prefix": "kill refills meter",
+		"body": "\"kill refills meter\"",
+		"description": "(additive_percentage) Melee kills refill %s1% of your charge meter."
+	},
+	"(?) Attribute: random drop line item unusual chance (2035)": {
+		"prefix": "random drop line item unusual chance",
+		"body": "\"random drop line item unusual chance\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: random drop line item unusual list (2036)": {
+		"prefix": "random drop line item unusual list",
+		"body": "\"random drop line item unusual list\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: random drop line item 0 (2037)": {
+		"prefix": "random drop line item 0",
+		"body": "\"random drop line item 0\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: random drop line item 1 (2038)": {
+		"prefix": "random drop line item 1",
+		"body": "\"random drop line item 1\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: random drop line item 2 (2039)": {
+		"prefix": "random drop line item 2",
+		"body": "\"random drop line item 2\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: random drop line item 3 (2040)": {
+		"prefix": "random drop line item 3",
+		"body": "\"random drop line item 3\"",
+		"description": "(?)"
+	},
+	"(=) Attribute: on taunt attach particle effect (2041)": {
+		"prefix": "on taunt attach particle effect",
+		"body": "\"on taunt attach particle effect\"",
+		"description": "(particle_index) ★ Unusual Effect: %s1"
+	},
+	"(?) Attribute: loot list name (2042)": {
+		"prefix": "loot list name",
+		"body": "\"loot list name\"",
+		"description": "(?)"
+	},
+	"(-) Attribute: upgrade rate decrease (2043)": {
+		"prefix": "upgrade rate decrease",
+		"body": "\"upgrade rate decrease\"",
+		"description": "(inverted_percentage) %s1% slower upgrade rate"
+	},
+	"(?) Attribute: can shuffle crate contents (2044)": {
+		"prefix": "can shuffle crate contents",
+		"body": "\"can shuffle crate contents\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: random drop line item footer desc (2045)": {
+		"prefix": "random drop line item footer desc",
+		"body": "\"random drop line item footer desc\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: is commodity (2046)": {
+		"prefix": "is commodity",
+		"body": "\"is commodity\"",
+		"description": "(?)"
+	},
+	"(-) Attribute: voice pitch scale (2048)": {
+		"prefix": "voice pitch scale",
+		"body": "\"voice pitch scale\"",
+		"description": "(percentage) Disables double jump"
+	},
+	"(+) Attribute: gunslinger punch combo (2049)": {
+		"prefix": "gunslinger punch combo",
+		"body": "\"gunslinger punch combo\"",
+		"description": "(additive) Third successful punch in a row always crits."
+	},
+	"(?) Attribute: cannot delete (2050)": {
+		"prefix": "cannot delete",
+		"body": "\"cannot delete\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: quest loaner id low (2051)": {
+		"prefix": "quest loaner id low",
+		"body": "\"quest loaner id low\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: quest loaner id hi (2052)": {
+		"prefix": "quest loaner id hi",
+		"body": "\"quest loaner id hi\"",
+		"description": "(?)"
+	},
+	"(=) Attribute: is_festivized (2053)": {
+		"prefix": "is_festivized",
+		"body": "\"is_festivized\"",
+		"description": "(additive) Festivized"
+	},
+	"(?) Attribute: fire particle blue (2054)": {
+		"prefix": "fire particle blue",
+		"body": "\"fire particle blue\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: fire particle red (2055)": {
+		"prefix": "fire particle red",
+		"body": "\"fire particle red\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: fire particle blue crit (2056)": {
+		"prefix": "fire particle blue crit",
+		"body": "\"fire particle blue crit\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: fire particle red crit (2057)": {
+		"prefix": "fire particle red crit",
+		"body": "\"fire particle red crit\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: meter_label (2058)": {
+		"prefix": "meter_label",
+		"body": "\"meter_label\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item_meter_damage_for_full_charge (2059)": {
+		"prefix": "item_meter_damage_for_full_charge",
+		"body": "\"item_meter_damage_for_full_charge\"",
+		"description": "(additive)"
+	},
+	"(?) Attribute: airblast cost scale hidden (2062)": {
+		"prefix": "airblast cost scale hidden",
+		"body": "\"airblast cost scale hidden\"",
+		"description": "(percentage)"
+	},
+	"(+) Attribute: dragons fury positive properties (2063)": {
+		"prefix": "dragons fury positive properties",
+		"body": "\"dragons fury positive properties\"",
+		"description": "(additive) Deals 300% damage to burning players. +50% repressurization rate on hit"
+	},
+	"(-) Attribute: dragons fury negative properties (2064)": {
+		"prefix": "dragons fury negative properties",
+		"body": "\"dragons fury negative properties\"",
+		"description": "(additive) -50% repressurization rate on Alt-Fire"
+	},
+	"(=) Attribute: dragons fury neutral properties (2065)": {
+		"prefix": "dragons fury neutral properties",
+		"body": "\"dragons fury neutral properties\"",
+		"description": "(additive) Uses a shared pressure tank for Primary Fire and Alt-Fire. Primary Fire: Launches a fast-moving projectile that briefly ignites enemies Alt-Fire: Release a blast of air that pushes enemies and projectiles, and extinguishes teammates that are on fire."
+	},
+	"(?) Attribute: force center wrap (2066)": {
+		"prefix": "force center wrap",
+		"body": "\"force center wrap\"",
+		"description": "(?)"
+	},
+	"(+) Attribute: attack_minicrits_and_consumes_burning (2067)": {
+		"prefix": "attack_minicrits_and_consumes_burning",
+		"body": "\"attack_minicrits_and_consumes_burning\"",
+		"description": "(additive) Mini-crits burning targets and extinguishes them. Damage increases based on remaining duration of afterburn. Killing blows on burning players grant a speed boost."
+	},
+	"(?) Attribute: is winter case (2068)": {
+		"prefix": "is winter case",
+		"body": "\"is winter case\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item slot criteria 1 (3000)": {
+		"prefix": "item slot criteria 1",
+		"body": "\"item slot criteria 1\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item in slot 1 (3001)": {
+		"prefix": "item in slot 1",
+		"body": "\"item in slot 1\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item slot criteria 2 (3002)": {
+		"prefix": "item slot criteria 2",
+		"body": "\"item slot criteria 2\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item in slot 2 (3003)": {
+		"prefix": "item in slot 2",
+		"body": "\"item in slot 2\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item slot criteria 3 (3004)": {
+		"prefix": "item slot criteria 3",
+		"body": "\"item slot criteria 3\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item in slot 3 (3005)": {
+		"prefix": "item in slot 3",
+		"body": "\"item in slot 3\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item slot criteria 4 (3006)": {
+		"prefix": "item slot criteria 4",
+		"body": "\"item slot criteria 4\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item in slot 4 (3007)": {
+		"prefix": "item in slot 4",
+		"body": "\"item in slot 4\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item slot criteria 5 (3008)": {
+		"prefix": "item slot criteria 5",
+		"body": "\"item slot criteria 5\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item in slot 5 (3009)": {
+		"prefix": "item in slot 5",
+		"body": "\"item in slot 5\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item slot criteria 6 (3010)": {
+		"prefix": "item slot criteria 6",
+		"body": "\"item slot criteria 6\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item in slot 6 (3011)": {
+		"prefix": "item in slot 6",
+		"body": "\"item in slot 6\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item slot criteria 7 (3012)": {
+		"prefix": "item slot criteria 7",
+		"body": "\"item slot criteria 7\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item in slot 7 (3013)": {
+		"prefix": "item in slot 7",
+		"body": "\"item in slot 7\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item slot criteria 8 (3014)": {
+		"prefix": "item slot criteria 8",
+		"body": "\"item slot criteria 8\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item in slot 8 (3015)": {
+		"prefix": "item in slot 8",
+		"body": "\"item in slot 8\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: quest earned standard points (3016)": {
+		"prefix": "quest earned standard points",
+		"body": "\"quest earned standard points\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: quest earned bonus points (3017)": {
+		"prefix": "quest earned bonus points",
+		"body": "\"quest earned bonus points\"",
+		"description": "(?)"
+	},
+	"(?) Attribute: item drop wave (3018)": {
+		"prefix": "item drop wave",
+		"body": "\"item drop wave\"",
+		"description": "(?)"
+	},
+}

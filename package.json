@@ -1,0 +1,31 @@
+{
+  "name": "tf2-item-attributes-snippets",
+  "displayName": "TF2 Item Attributes Snippets",
+  "description": "Snippets for every item attribute currently listed on the TF2 Wiki.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "publisher": "probablynotbeard",
+  "icon": "/icon.png",
+  "author": {
+    "name": "probablynotbeard",
+    "url": "https://github.com/probablynotbeard"
+  },
+
+  "repository": {
+    "url": "https://github.com/probablynotbeard/tf2-item-attributes-snippets",
+    "type": "git"
+  },
+  "contributes": {
+		"snippets": [
+			{
+				"language": "squirrel",
+				"path": "./snippets/tf2-item-attribs.code-snippets"
+			}
+		]
+	}
+}
